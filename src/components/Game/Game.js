@@ -21,6 +21,17 @@ function Game({ difficulty, categories, words }) {
   const motionCooldownRef = useRef(false);
   const [processing, setProcessing] = useState(false);
 
+  const [shouldRotate, setShouldRotate] = useState(false);
+
+  useEffect(() => {
+    const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    );
+    if (isMobileDevice && window.innerWidth < window.innerHeight) {
+      setShouldRotate(true);
+    }
+  }, []);
+
   const filteredWords = words.filter(
     (word) =>
       word.difficulty === difficulty && categories.includes(word.category)
@@ -43,7 +54,7 @@ function Game({ difficulty, categories, words }) {
     const handleMotion = (event) => {
       if (!event.rotationRate) return;
       if (motionCooldownRef.current) return;
-    
+
       if (gameStarted && countdown === 0 && timeLeft > 0) {
         const { beta } = event.rotationRate;
         if (beta > 40) {
@@ -155,7 +166,7 @@ function Game({ difficulty, categories, words }) {
   }
 
   return (
-    <div className="game">
+    <div className={shouldRotate ? "landscape-container" : "game"}>
       {showConfetti && <Confetti />}
 
       <h2 className="title">
@@ -202,9 +213,8 @@ function Game({ difficulty, categories, words }) {
         <>
           <h3 className="subtitle">Desafie sua criatividade!</h3>
           <p className="description">
-            Use as setas do teclado ou os botões para passar ou acertar a
-            palavra exibida. Prepare-se para uma experiência divertida e
-            dinâmica!
+            Use as setas do teclado ou os botões para passar ou acertar a palavra
+            exibida. Prepare-se para uma experiência divertida e dinâmica!
           </p>
           <button className="start-button" onClick={startGame}>
             <FaPlay /> Iniciar
