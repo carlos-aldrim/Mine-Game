@@ -43,16 +43,16 @@ function Game({ difficulty, categories, words }) {
     const handleMotion = (event) => {
       if (!event.rotationRate) return;
       if (motionCooldownRef.current) return;
-
+    
       if (gameStarted && countdown === 0 && timeLeft > 0) {
         const { beta } = event.rotationRate;
-        if (beta > 20) {
+        if (beta > 40) {
           motionCooldownRef.current = true;
           handleCorrect();
           setTimeout(() => {
             motionCooldownRef.current = false;
           }, 1000);
-        } else if (beta < -20) {
+        } else if (beta < -40) {
           motionCooldownRef.current = true;
           handlePass();
           setTimeout(() => {
