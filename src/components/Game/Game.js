@@ -19,6 +19,7 @@ function Game({ difficulty, categories, words }) {
   const [animationClass, setAnimationClass] = useState("");
   const [gameWords, setGameWords] = useState([]);
   const motionCooldownRef = useRef(false);
+  const [processing, setProcessing] = useState(false);
 
   const filteredWords = words.filter(
     (word) =>
@@ -122,19 +123,25 @@ function Game({ difficulty, categories, words }) {
   }, [gameStarted, countdown, timeLeft, gameWords]);
 
   const handlePass = () => {
+    if (processing) return;
+    setProcessing(true);
     setAnimationClass("flash-orange");
     setTimeout(() => {
       setGameWords((prevWords) => prevWords.slice(1));
       setAnimationClass("");
+      setProcessing(false);
     }, 500);
   };
 
   const handleCorrect = () => {
+    if (processing) return;
+    setProcessing(true);
     setAnimationClass("flash-green");
     setTimeout(() => {
       setScore((prev) => prev + 1);
       setGameWords((prevWords) => prevWords.slice(1));
       setAnimationClass("");
+      setProcessing(false);
     }, 500);
   };
 
@@ -195,8 +202,9 @@ function Game({ difficulty, categories, words }) {
         <>
           <h3 className="subtitle">Desafie sua criatividade!</h3>
           <p className="description">
-            Use as setas do teclado ou os botões para passar ou acertar a palavra
-            exibida. Prepare-se para uma experiência divertida e dinâmica!
+            Use as setas do teclado ou os botões para passar ou acertar a
+            palavra exibida. Prepare-se para uma experiência divertida e
+            dinâmica!
           </p>
           <button className="start-button" onClick={startGame}>
             <FaPlay /> Iniciar
