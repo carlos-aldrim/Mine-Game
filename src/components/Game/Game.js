@@ -200,7 +200,7 @@ function Game({ difficulty, categories, words }) {
             className={`word-card ${animationClass}`}
             style={{ borderColor: difficulty.color }}
           >
-            <h3>{currentWord.word}</h3>
+            <h1>{currentWord.word}</h1>
             <span className="category-icon">{currentWord.categoryIcon}</span>
           </div>
 
