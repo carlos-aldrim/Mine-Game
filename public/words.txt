@@ -1,0 +1,9742 @@
+[
+  {
+    "word": "Leão",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Gato",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cachorro",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Elefante",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tigre",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Zebra",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Girafa",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Macaco",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pinguim",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Urso",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Coelho",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Vaca",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cavalo",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Porco",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ovelha",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rato",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Peixe",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pato",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Galinha",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Galo",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Jacaré",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Crocodilo",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cobra",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lagarto",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Iguana",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Camaleão",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tartaruga",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Jabuti",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sapo",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rã",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Salamandra",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tubarão",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Salmão",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Sardinha",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Carpa",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tilápia",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Enguia",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bacalhau",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Borboleta",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Besouro",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Formiga",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Abelha",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Aranha",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Caranguejo",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Camarão",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lula",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Polvo",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ouriço-do-mar",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Estrela-do-mar",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Hiena",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Búfalo",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Avestruz",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Emu",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pônei",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Canguru",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Coala",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Babuíno",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Gorila",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Orangotango",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Panda",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lobo",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Raposa",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Gambá",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Castor",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Esquilo",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Porco-espinho",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Morcego",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pomba",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pombo",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Gaivota",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Coruja",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Águia",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Falcão",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ganso",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cisne",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pavão",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Perdiz",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Canário",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rouxinol",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tucano",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Arara",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Papagaio",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pica-pau",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Corvo",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pardal",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tordo",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Beija-flor",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Jandaia",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Quati",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tamanduá",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Anta",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Preguiça",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cutia",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Capivara",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Paca",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ouriço",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Doninha",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Fura-olho",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Mico-leão-dourado",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tamanduá-bandeira",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bicho-preguiça",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ariranha",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lontra",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Foca",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Baleia",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Golfinho",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Orca",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Morsa",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Falcão-peregrino",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Abutre",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Corvo-marinho",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Gaivotinha",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Sabiá",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Canário-da-terra",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cardeal",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pintassilgo",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Maritaca",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pomba-de-asa-branca",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Garrano",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Mustang",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Dromedário",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Camelo",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Búfalo-asiático",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bisonte",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Veado",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Alce",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Rena",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Caribu",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Lince",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Puma",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Onça",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Jaguatirica",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Muflão",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Íbex",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Gazela",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Antílope",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cervo",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Eland",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Gnu",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Impala",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Klipspringer",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tatu",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tamanduá-mirim",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ouriçudo",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Porquinho-da-índia",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Gambá-de-orelha-preta",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Coelho-da-páscoa",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lebre",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tarântula",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Escorpião",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Centopéia",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Louva-a-deus",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Mariposa",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Vespa",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Libélula",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cigarra",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Grilo",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Besouro-rinoceronte",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Joaninha",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Formiga-cortadeira",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Barata",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Caramujo",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lesma",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Minhoca",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Borboleta-monarca",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Grilo-cantor",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Escaravelho",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Mantis religiosa",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cágado",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Truta",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lambari",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bagre",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Dourado",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pirarucu",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tucunaré",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Piranha",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Curimatã",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Jundiá",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Traíra",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Arraia",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Raia",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Manta",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Esturjão",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Merluza",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sargo",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Linguado",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cavala",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Atum",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Robalo",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pescada",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Enguia elétrica",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Piau",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pescada amarela",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bonito",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Anchova",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cavalo-marinho",
+    "category": "Animais",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Peixe-boi",
+    "category": "Animais",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Dugongo",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ornitorrinco",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Equidna",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Gaur",
+    "category": "Animais",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Titanic",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Avatar",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Matrix",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Star Wars",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Indiana Jones",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Jurassic Park",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Poderoso Chefão",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rocky",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "E.T.",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Exorcista",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Psicose",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Iluminado",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Clube da Luta",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Gladiador",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Forrest Gump",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Rei Leão",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Toy Story",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Homem de Ferro",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Vingadores: Ultimato",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Os Incríveis",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Shrek",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Homem-Aranha",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Capitão América",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Batman",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Superman",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Mulher-Maravilha",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Coringa",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pantera Negra",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Duna",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "1917",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Parasita",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Nomadland",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cidadão Kane",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Laranja Mecânica",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Blade Runner",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Apocalypse Now",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Taxi Driver",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Scarface",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Amadeus",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A Lista de Schindler",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Silêncio dos Inocentes",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Seven",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Memento",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Inception",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Interstellar",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Dunkirk",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "The Revenant",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "La La Land",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Whiplash",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Black Swan",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Birdman",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Her",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Gravity",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Social Network",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Joker",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Mad Max: Estrada da Fúria",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Oldboy",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cidade de Deus",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tropa de Elite",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Auto da Compadecida",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Central do Brasil",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bacurau",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Aquarius",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Que Horas Ela Volta?",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Estômago",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Carandiru",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Lisbela e o Prisioneiro",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cidade dos Homens",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Pagador de Promessas",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bye Bye Brasil",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Beijo da Mulher Aranha",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dois Papas",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A Grande Beleza",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Sal da Terra",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "La Dolce Vita",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "8½",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Fellini Satyricon",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Fabulosa Fábrica de Chocolate",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Efeito Borboleta",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Donnie Darko",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Corra!",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Get Out",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Um Sonho de Liberdade",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Amnésia",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Os Vingadores",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Capitão Marvel",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Homem-Formiga",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Velozes e Furiosos",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Transformers",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Guerreiro",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Breaking Bad",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Game of Thrones",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Stranger Things",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Witcher",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "The Crown",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Westworld",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Peaky Blinders",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Narcos",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Chernobyl",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Friends",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Seinfeld",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Office",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sherlock",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "House of Cards",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dark",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "La Casa de Papel",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ozark",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Better Call Saul",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Lost",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Supernatural",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Buffy, a Caça-Vampiros",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Mandalorian",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rick and Morty",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Fargo",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "True Detective",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "The Boys",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Mad Men",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sons of Anarchy",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "House",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dexter",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Walking Dead",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "The Sopranos",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sense8",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Expanse",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Arrested Development",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Mr. Robot",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Community",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Modern Family",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Brooklyn Nine-Nine",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "How I Met Your Mother",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "The Big Bang Theory",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Vikings",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Rome",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Spartacus",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Black Sails",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Penny Dreadful",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "The Haunting of Hill House",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Leftovers",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Twin Peaks",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Fleabag",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Killing Eve",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Succession",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Billions",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Euphoria",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Umbrella Academy",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Gossip Girl",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pretty Little Liars",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Dawson's Creek",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "One Tree Hill",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Glee",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Riverdale",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "13 Reasons Why",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Stranger",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "I Am Not Okay with This",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Outer Banks",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Society",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Elite",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Skins",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Misfits",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Freaks and Geeks",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "The Wire",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Atlanta",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Insecure",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Barry",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Curb Your Enthusiasm",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Archer",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Robot Chicken",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "BoJack Horseman",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Big Mouth",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Adventure Time",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Futurama",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Simpsons",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Family Guy",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "South Park",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "SpongeBob SquarePants",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Avatar: A Lenda de Aang",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dragon Ball Z",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Naruto",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "One Piece",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bleach",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Attack on Titan",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Death Note",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Fullmetal Alchemist",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cowboy Bebop",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Neon Genesis Evangelion",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Code Geass",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Steins;Gate",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Your Lie in April",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Hunter x Hunter",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sword Art Online",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Re:Zero",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Demon Slayer",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Jujutsu Kaisen",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "My Hero Academia",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "One Punch Man",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Boys Presents: Diabolical",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Gangs of New York",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Requiem for a Dream",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "No Country for Old Men",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "There Will Be Blood",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Tree of Life",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Chinatown",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Moulin Rouge!",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Amélie",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Grand Budapest Hotel",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Moonrise Kingdom",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Royal Tenenbaums",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Little Miss Sunshine",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Juno",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Pursuit of Happyness",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cast Away",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "The Martian",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Contact",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Looper",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Edge of Tomorrow",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Oblivion",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pacific Rim",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "District 9",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Snowpiercer",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "In Time",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "The Adjustment Bureau",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Source Code",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sicario",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Prisoners",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Gone Girl",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Shutter Island",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Zodiac",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Spotlight",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bohemian Rhapsody",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rocketman",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Les Misérables",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Imitation Game",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "A Beautiful Mind",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Theory of Everything",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Good Will Hunting",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Dead Poets Society",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Breakfast Club",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ferris Bueller's Day Off",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pretty in Pink",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "St. Elmo's Fire",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Risky Business",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Top Gun",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Rain Man",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Doctor Strange",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Guardians of the Galaxy",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ant-Man",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Dark Knight",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Inglourious Basterds",
+    "category": "Filmes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Reservoir Dogs",
+    "category": "Filmes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pulp Fiction",
+    "category": "Filmes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Futebol",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Vôlei",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Basquete",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tênis",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Natação",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Atletismo",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Handebol",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ciclismo",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Boxe",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Judô",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Karatê",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rugby",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Golfe",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Beisebol",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Softbol",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Surf",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Skate",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Escalada",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Triatlo",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Canoagem",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Remo",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Automobilismo",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Motociclismo",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Corrida",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Maratona",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Luta",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Capoeira",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Parkour",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Dança",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Hipismo",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Esqui",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Snowboard",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Badminton",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tênis de mesa",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pebolim",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Xadrez",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Escalada esportiva",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Patinação",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ciclismo de montanha",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ciclismo de estrada",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Polo aquático",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Hóquei",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Hóquei em patins",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bodyboard",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Wakeboard",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Kitesurf",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Windsurf",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Skateboard",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rugby league",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rugby union",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Futsal",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Vôlei de praia",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Voleibol",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Atletismo de pista",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Atletismo de campo",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Luta livre",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Sumô",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Taekwondo",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Esgrima",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tiro com arco",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Escalada indoor",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bicicross",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Mountain bike",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "BMX",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Parapente",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bungee Jumping",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Canoagem slalom",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Canoagem velocidade",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rugby sevens",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Futebol americano",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Polo",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Esportes radicais",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Corrida de obstáculos",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Corrida de revezamento",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Levantamento de peso",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ginástica artística",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ginástica rítmica",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Nado sincronizado",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Mergulho",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Biatlo",
+    "category": "Esportes",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Crossfit",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Parkour urbano",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Halterofilismo",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bodybuilding",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Esgrima olímpica",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Skate de velocidade",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Snowmobile",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Luta greco-romana",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Luta olímpica",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Paratriatlo",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pentatlo moderno",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Decatlo",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Heptatlo",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Duatlo",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Boliche",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cricket",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Squash",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Racquetball",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Padel",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Paintball",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Airsoft",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Escalada em rocha",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Slackline",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bobsled",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Luge",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Skeleton",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Curling",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Esqui cross-country",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Esqui acrobático",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Salto de esqui",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bicicleta BMX freestyle",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Enduro",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Motocross",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Rally",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Karting",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Automobilismo de Fórmula 1",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Esportes eletrônicos",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Simulação de corrida",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Slackline extremo",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Arremesso de peso",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lançamento de dardo",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lançamento de disco",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Salto em altura",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Salto em distância",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Salto com vara",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Aquathlon",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Endurance",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ultramaratona",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Corrida noturna",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Corrida em trilha",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Corrida de montanha",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Escalada em gelo",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pesca esportiva",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tiro esportivo",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tiro ao alvo",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Parkour freestyle",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Freestyle motocross",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Base jumping",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Wingsuit flying",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Corrida de kart",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Rallycross",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Xadrez relâmpago",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Polo a cavalo",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Xadrez por correspondência",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Esportes de aventura",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Escalada em árvore",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Maratona de natação",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ciclismo BMX",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Esgrima clássica",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ginástica acrobática",
+    "category": "Esportes",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Apneia livre",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ultra trail",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Parkour avançado",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Halterofilismo de potência",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Body pump",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Desportos paralímpicos",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Esgrima histórica",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Skate agressivo",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Snowboard halfpipe",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Luta livre brasileira",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Taekwondo poomsae",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Judô randori",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ciclismo pista",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Skate downhill",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Corrida de aventura",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Maratona de mountain bike",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ironman",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "MMA",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pólo aquático avançado",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Vôlei sentado",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Goalball",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Esgrima com sabres",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Badminton de competição",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tênis de quadra",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tiro com carabina",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Triatlo de inverno",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pentatlo militar",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Decatlo avançado",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Heptatlo avançado",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Liga de eSports",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Simulação de Fórmula 1",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Rally de regularidade",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Rally raid",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Corrida de resistência",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Maratona de resistência",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Corrida de velocidade",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Esgrima de velocidade",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Luta sumô profissional",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ciclismo de pista avançado",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Vela olímpica",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Regata",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Kitesurf acrobático",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Stand up paddle",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Hidroginástica competitiva",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Mergulho livre",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Nado de peito",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Nado borboleta",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Nado costas",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Nado livre",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Esqui estilo livre",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Salto com snowboard",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bobsled duplo",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Skeleton avançado",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Curling avançado",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Luge profissional",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ciclismo de gravidade",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Mountainboard",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "BMX street",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "BMX dirt",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Rally off-road",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Futevôlei",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Beach tennis",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Peteca",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Frescobol",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tchoukball",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tênis de duplas",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Basquete de rua",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Corrida de revezamento avançada",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Jogos paralímpicos",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Vela de competição",
+    "category": "Esportes",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Vassoura",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cadeira",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Mesa",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lâmpada",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Copo",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Prato",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Caneta",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Papel",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Livro",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bolsa",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Televisão",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Telefone",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Chave",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Relógio",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Sapato",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Chaveiro",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Escova",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Sofá",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Geladeira",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Forno",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Escada",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pincel",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Computador",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cadeira de escritório",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Balcão",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Abajur",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Espelho",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ar-condicionado",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pia",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ferro de passar",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Mochila",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ventilador",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cortina",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Quadro",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Fruteira",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lixeira",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Balde",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tábua de passar",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Escorredor",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Panela",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Caneca",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Guardanapo",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Borrifador",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bicicleta",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cachimbo",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cortador",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tesoura",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lixa",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Toalha",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Almofada",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Travesseiro",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Caderno",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Fita",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tesoura",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Régua",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Corda",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Relógio de parede",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bateria",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Escova de dentes",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Sabonete",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Saboneteira",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Escova de cabelo",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Desodorante",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Xícara",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Guardachuva",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cinta",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Fita adesiva",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lixa de unha",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Névoa",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Termômetro",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Protetor solar",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Chapéu",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Máscara",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Escada extensível",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ponteiro",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Triturador",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Computador portátil",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Protetor de ouvido",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Aspirador de pó",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Barbeador",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lixeira inteligente",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Caixa de ferramentas",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Liquidificador",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Refrigerador",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Câmera fotográfica",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Aquecedor",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Mesa de escritório",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ventilador de teto",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Impressora",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Reprodutor de música",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Micro-ondas",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Garfo elétrico",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Leitor de código de barras",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Armação de óculos",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Roteador",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sugador de sujeira",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Furadeira",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Teclado",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Mouse",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Luminária",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cadeira de rodas",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Espremedor de frutas",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Armazenamento de dados",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Scanner",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Microscópio",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Navegador GPS",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Dron",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Câmara de segurança",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ultrassom",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Calculadora científica",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Radar",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Equipamento de laboratório",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Martelo",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Chave inglesa",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Serrinha",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Alicate",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Chave de fenda",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cinto",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Aparador de cabelo",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Panquequeira",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Porta-retrato",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cesta",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Colher",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Espátula",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cadeira de praia",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Guardanapo de papel",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Jogo de tabuleiro",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Aquecedor de ambiente",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Marmita",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Carrinho de compras",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Escada dobrável",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rodo",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Esponja de limpeza",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Luz de emergência",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cobertor",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Carro",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Espremedor de alho",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bandeja",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bico de panela",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Secador de cabelo",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Disco rígido",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Chave de roda",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Relógio de pulso",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Placa de vídeo",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Power bank",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Saco de dormir",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Guarda-chuva invertido",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Corda de pular",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Microfone sem fio",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sistema de som",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Fone de ouvido",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Câmera de segurança",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Transistor",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Amplificador",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Máquina de lavar",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cadeira reclinável",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Furadeira elétrica",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Chuveiro eletrônico",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Mesa de jantar",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Câmera de filmagem",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Mesa de café",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Aquecedor de água",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Gravador de voz",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Torradeira",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Balança digital",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tablet",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cafeteira",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Rádio portátil",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ar condicionado portátil",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Projetor",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Conjunto de pincéis",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Máscara de gás",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Luminária de mesa",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Geladeira inteligente",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cubo de gelo",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Carregador solar",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Mini refrigerador",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Máquina de costura",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Estufa elétrica",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Apito",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bastão de selfie",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Caixa acústica",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Painel solar",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Projetor de imagens",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pistola de pintura",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Smartwatch",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Câmera termográfica",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Impressora 3D",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cadeira ergonômica",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Scanner de digitais",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Radiômetro",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Batedeira profissional",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Estabilizador de imagem",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Oximetro",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Serra elétrica",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Laser",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Apanhador de sonhos",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Scanner de código QR",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sistema de energia renovável",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Câmera 360 graus",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sistema de monitoramento de saúde",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Impressora de alimentos",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Drone",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Hoverboard",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Termômetro digital",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Impressora fotográfica",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pistola de cola quente",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Máquina de churros",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ferro de solda",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ar condicionado split",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lentes de contato",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cadeira gamer",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Portátil de rede",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Controle remoto",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cervejeira",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Máquina de fazer pipoca",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pipoqueira elétrica",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Espelho de aumento",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sistema de alarme",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Óculos de realidade virtual",
+    "category": "Objetos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Caixa de ferramentas",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Secadora de roupas",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Grill elétrico",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Máquina de café expresso",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Caminhão de brinquedo",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cesta de piquenique",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Toalha de mesa",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cofrinho",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Carro de controle remoto",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bola de futebol",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tênis",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Livro",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Relógio despertador",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Jogo de cartas",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Varal",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Copo de vidro",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Escova de cabelo",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Prato",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Talheres",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tesoura",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Prateleira",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Balde",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cadeira de escritório",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cinta",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Espelho de corpo inteiro",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cesto de roupas",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cadeira dobrável",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Colher de sopa",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cafeteira elétrica",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lanterna",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Abajur",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Sofá",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Câmera fotográfica",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Telefone fixo",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Espelho de maquiagem",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cesta de basquete",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Saco de lixo",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Computador",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Câmera de segurança",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Espremedor de frutas",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Aspirador de pó",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Relógio de parede",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Papel higiênico",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Caderno",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Raquete de tênis",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Mochila",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cortina",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Quadro",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Régua",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Caderneta",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bloco de anotações",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Garrafa térmica",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Colete de segurança",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Chinelos",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Vassoura elétrica",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Chave de carro",
+    "category": "Objetos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Aspirador robot",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Aquecedor de água",
+    "category": "Objetos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Anitta",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Beyoncé",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Billie Eilish",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Shakira",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Elvis Presley",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Madonna",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Adele",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rihanna",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Katy Perry",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Michael Jackson",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Sandy & Junior",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Chitãozinho & Xororó",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Zezé Di Camargo & Luciano",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Legião Urbana",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Os Mutantes",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Nirvana",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Beatles",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Coldplay",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Rita Lee",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cássia Eller",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Os Tribalistas",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Marília Mendonça",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sia",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Elis Regina",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Gilberto Gil",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Caetano Veloso",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "João Gilberto",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Fiona Apple",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Luan Santana",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Skrillex",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sting",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Rolling Stones",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ariana Grande",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Whitney Houston",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Jimi Hendrix",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Rita Ora",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Beyoncé - Halo",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Adele - Someone Like You",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Anitta - Envolver",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "John Lennon - Imagine",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Coldplay - Fix You",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Nirvana - Smells Like Teen Spirit",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Beatles - Hey Jude",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Maria Bethânia",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ivete Sangalo",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pabllo Vittar",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Djavan",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tom Jobim",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cláudia Leitte",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ludmilla",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Emicida",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Toni Braxton",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Travis Scott",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "P!nk",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Lana Del Rey",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Radiohead",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tool",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Rage Against the Machine",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Patti Smith",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "David Bowie",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Nick Cave",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Cure",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pink Floyd",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tame Impala",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Vangelis",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Doors",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Led Zeppelin",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Joni Mitchell",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tina Turner",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bjork",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "M.I.A.",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sigur Rós",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Arctic Monkeys",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Frank Ocean",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Brian Eno",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Fleetwood Mac",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Luan Santana - Meteoro",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bruno Mars",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Taylor Swift",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Luis Fonsi",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Jonas Brothers",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Luis Miguel",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pitty",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Charlie Puth",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Céline Dion",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ariana Grande - No Tears Left to Cry",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Elton John",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "James Brown",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Roberta Campos",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ivete Sangalo - Festa",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Luan Santana - Te Esperando",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Wesley Safadão",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Chico Buarque",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tim Maia",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Anavitoria",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Adriana Calcanhotto",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Clube da Esquina",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Vanessa da Mata",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Olodum",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Gal Costa",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ney Matogrosso",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Nando Reis",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ana Carolina",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Caetano Veloso - O Leãozinho",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Gilberto Gil - Andar com Fé",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Djavan - Oceano",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Roberto Carlos - Como É Grande o Meu Amor Por Você",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Os Mutantes - A Minha Menina",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Rita Lee - Lança Perfume",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Luan Santana - Coração de Papel",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Marília Mendonça - Infiel",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Zeca Baleiro",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tamires",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Zezé Di Camargo",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Os Mutantes",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Paul McCartney",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Guns N' Roses",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Drake",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Kendrick Lamar",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Black Eyed Peas",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Chainsmokers",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lady Gaga",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Harry Styles",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sam Smith",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Kanye West",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "BTS",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Justin Bieber",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ed Sheeran",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Miley Cyrus",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Frank Sinatra",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Amy Winehouse",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tom Waits",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Joni Mitchell",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Fleetwood Mac",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Rolling Stones - Angie",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Patti Smith - Because the Night",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "David Bowie - Life on Mars?",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Lou Reed",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Velvet Underground",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pink Floyd - Wish You Were Here",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Jimi Hendrix - Purple Haze",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Doors - Light My Fire",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Nick Cave & The Bad Seeds",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sigur Rós - Hoppípolla",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tame Impala - The Less I Know The Better",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Cure - Just Like Heaven",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Arcade Fire",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Lana Del Rey - Video Games",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Kate Bush - Wuthering Heights",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cure",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Radiohead - Paranoid Android",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Frank Ocean - Thinkin Bout You",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Björk - Hyperballad",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sufjan Stevens",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sonic Youth",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Neutral Milk Hotel",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Brian Eno - An Ending (Ascent)",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Beyoncé - Single Ladies",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Coldplay - Yellow",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Shakira - Hips Don't Lie",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rihanna - Umbrella",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cyndi Lauper - Girls Just Want to Have Fun",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Selena Gomez",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Katy Perry - Firework",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ed Sheeran - Shape of You",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Adele - Rolling in the Deep",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Madonna",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Celine Dion - My Heart Will Go On",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Elvis Presley - Can't Help Falling in Love",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "The Beatles",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Maroon 5 - Sugar",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Queen - Bohemian Rhapsody",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "The Rolling Stones - Satisfaction",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Alicia Keys - If I Ain't Got You",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bruno Mars - Just the Way You Are",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Beyoncé",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "John Legend - All of Me",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Norah Jones - Don't Know Why",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "One Direction - What Makes You Beautiful",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Michael Jackson",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Whitney Houston",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "P!nk",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Backstreet Boys - I Want It That Way",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Christina Aguilera",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Mariah Carey",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Justin Timberlake - Can't Stop the Feeling!",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Hozier - Take Me to Church",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Sia - Chandelier",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Kesha - Tik Tok",
+    "category": "Música",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pink Floyd",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Amy Winehouse",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Rolling Stones",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Elton John - Your Song",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Janis Joplin",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Stevie Nicks",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Cure - Friday I'm in Love",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "U2 - With or Without You",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Alanis Morissette - Ironic",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Smiths - There Is a Light That Never Goes Out",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Adele",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Mumford & Sons",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bon Iver",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Killers - Mr. Brightside",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Florence + The Machine",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lorde - Royals",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Hozier",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The National",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Imagine Dragons - Radioactive",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Drake",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Kendrick Lamar",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Miley Cyrus",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Panic! At The Disco",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Shakira",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Shawn Mendes",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "James Bay",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Charlie Puth",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Billie Eilish - Bad Guy",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Kanye West",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Weeknd",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ariana Grande",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Katy Perry",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ed Sheeran",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "John Mayer",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Jason Mraz",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dua Lipa",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sam Smith",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Frank Sinatra",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Beyoncé - Halo",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Maroon 5",
+    "category": "Música",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Led Zeppelin",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Doors",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Radiohead",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bob Dylan",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Velvet Underground",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "David Bowie",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Jimi Hendrix",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pink Floyd",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Lou Reed",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Nirvana",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Clash",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Joy Division",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Smiths",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Kate Bush",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sufjan Stevens",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tame Impala",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Arcade Fire",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sigur Rós",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Kurt Cobain",
+    "category": "Música",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Arroz",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Feijão",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Maçã",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pão",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Leite",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Frango",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Batata",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Café",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bolo",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Chocolate",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Sopa",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tomate",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Manteiga",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Queijo",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Peixe",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Alface",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Banana",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cenoura",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Laranja",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Feijão",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Picanha",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Coxinha",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Esfiha",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Hambúrguer",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lasanha",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pizza",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Churrasco",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Salmão",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Robalo",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tartar",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tempura",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Vichyssoise",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Guacamole",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pão de Queijo",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bacalhau",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tacacá",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cuscuz",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Marmitex",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Farofa",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Acarajé",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Trufa",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Aligot",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sous-vide",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Foie gras",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Moules",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Baba ganoush",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Paella",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Panzanella",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ratatouille",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Goulash",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Moussaka",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Choucroute",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Chili",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Caviar",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tartare",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sashimi",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Gorgonzola",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Frittata",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Salsiccia",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tiramisu",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Truffle",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Kumquat",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Chèvre",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tamale",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Kimchi",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Brioche",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Focaccia",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Garam masala",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Mole",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Fennel",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Chimichurri",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Boudin",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Quinoa",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Scampi",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Saffron",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Wakame",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tempura",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Zaatar",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tahini",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Chia",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Morango",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Abacaxi",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Melancia",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cebola",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pêssego",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Uva",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Abobrinha",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Manga",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Caqui",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Couve",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Berinjela",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Espinafre",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Coco",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Goiaba",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Limão",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tangerina",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pera",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cabeludo",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Curry",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ovo",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Almôndega",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Torta",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Risoto",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cerveja",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Gin",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Chá",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Café",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Quibe",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bacon",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Batata frita",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Brigadeiro",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Canelone",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Focaccia",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Macarrão",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Gordura",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ceviche",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sushi",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pastel",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tapioca",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Macaron",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ravioli",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cuscuz paulista",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Espetinho",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Azeitona",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Canjica",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Baba de moça",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pudim",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Molho",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Doce de leite",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Churros",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Biscoito",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Manjar",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Mousse",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Gelatina",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pipoca",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Paçoca",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Jabuticaba",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Caipirinha",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cachaça",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Salgadinho",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sardinha",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cabeludo",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pap",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Foie gras",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ostra",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Caviar",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Trufa",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Marmite",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ceviche",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Moussaka",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tempura",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Baba ganoush",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sashimi",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tartare",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Goulash",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Mole",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Kimchi",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Zaatar",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Quinoa",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Brioche",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Garam masala",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Saffron",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tahini",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Wakame",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sous-vide",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Panzanella",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Chimichurri",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Marmitex",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ratatouille",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Boudin",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Frittata",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Boudin",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tempura",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Polenta",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Manteiga",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Mel",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Açaí",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Queijo",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Frango",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Carne",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Peixe",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Leite",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Arroz integral",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Farinha",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Chocolate",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Iogurte",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Batata-doce",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Amendoim",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Alface",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tomate",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cenoura",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Beterraba",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cabeludo",
+    "category": "Comida",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Maniçoba",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pão de queijo",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Quinoa",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Hummus",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Berinjela recheada",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Creme de leite",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Farinheira",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Carne seca",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Risoto de camarão",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Feijão tropeiro",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Churrasco",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Salada de frutas",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lasanha",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Espaguete",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pudim de leite condensado",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bacalhau",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Acarajé",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Coxinha",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Maminha",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Rabada",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Marmitex",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bife a milanesa",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Hambúrguer",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sopa de legumes",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pipoca de micro-ondas",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Feijão carioca",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Biscoito de polvilho",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bolo de cenoura",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pastel de feira",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Feijão verde",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Broa de milho",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Chico balanceado",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Batata chips",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Mousse de maracujá",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cuscuz",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Canelone de frango",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bacalhau à Brás",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sushi de atum",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Panqueca",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bolinhos de bacalhau",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Grão-de-bico",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Chili",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Salada Caesar",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sopa de cebola",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Carne de cordeiro",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ceviche de camarão",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bolo de rolo",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tempurá de camarão",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bacalhau com natas",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Minestrone",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Waffle",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Brioche recheado",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Camarão à provençal",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Panqueca de carne",
+    "category": "Comida",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Escargot",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Robalo",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Filé mignon",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ratatouille francês",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Salmão defumado",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Caviar beluga",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Truta",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Aguachile",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Frutos do mar",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Manteiga de trufas",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Gorgonzola",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Foie gras de pato",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pato confitado",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Chateaubriand",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pô de caju",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tartufo",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Arroz negro",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Vinho do Porto",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Mignon grelhado",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Lagosta grelhada",
+    "category": "Comida",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Paris",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Brasil",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Nova York",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Japão",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Roma",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Argentina",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Sydney",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Londres",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Machu Picchu",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rio de Janeiro",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cairo",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Berlim",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Amazônia",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Madri",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Buenos Aires",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dubai",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Viena",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cape Town",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Havai",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Marrakech",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Oceano Atlântico",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Catar",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Patagônia",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Lima",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Zanzibar",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Queenstown",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Filipinas",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bhutão",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Giza",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Serengeti",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Santorini",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Galápagos",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Mongólia",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bora Bora",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Antártica",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Patagônia Chilena",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Islândia",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Antilhas",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Transiberiana",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Marrakech",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tibet",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bali",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tulum",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Amsterdã",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Barcelona",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Praga",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cidade do Cabo",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Quênia",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Orlando",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tóquio",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ilhas Maldivas",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lisboa",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Moscow",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Foz do Iguaçu",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Canadá",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Punta Cana",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Copenhagen",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Iguaçu",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Wellington",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Croácia",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dublin",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Helsinque",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ushuaia",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bolívia",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "São Paulo",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Maranhão",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Paraguai",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Minsk",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Suécia",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Jordânia",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Líbano",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Catar",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Finlândia",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Finlândia",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Auckland",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Vancouver",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cusco",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Malta",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cingapura",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Gronelândia",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Seychelles",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cartagena",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Zanzibar",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Taj Mahal",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bordeaux",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lagos",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lagos de Plitvice",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Antibes",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Costa Rica",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Côte d'Azur",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Viena",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bangkok",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bali",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Fez",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Amalfi",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Helsinque",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Azerbaijão",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Verona",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Túnis",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lima",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Minsk",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Darwin",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Haia",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Maldivas",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Kigali",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Marrocos",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Punta Cana",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Abu Dhabi",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Monte Carlo",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Zanzibar",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Roterdã",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Qatar",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ushuaia",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Montevidéu",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Atenas",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lagos",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Chichen Itzá",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Jerusalém",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Iguaçu",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lisboa",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Belo Horizonte",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Havana",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cingapura",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bariloche",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Santiago",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Helsinque",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Kyoto",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Itaim Bibi",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Maceió",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Dubai",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Aruba",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Yucatán",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Leeds",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Verona",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tbilisi",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Goa",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Galápagos",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Kuala Lumpur",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cartagena",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Palawan",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Porto",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Atacama",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Maurício",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Belfast",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dubai",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ulaanbaatar",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Londres",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Brisbane",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ibiza",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tbilisi",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sevilha",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Chennai",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "São Petersburgo",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Maurício",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lago Tahoe",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Minsk",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cabo Verde",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bangkok",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Machu Picchu",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Oslo",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dubai",
+    "category": "Viagens",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Zanzibar",
+    "category": "Viagens",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Salvador",
+    "category": "Viagens",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Dom Casmurro",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "A Moreninha",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Cortiço",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Primo Basílio",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Harry Potter e a Pedra Filosofal",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "A Cabana",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Senhor dos Anéis",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "As Crônicas de Nárnia",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Alquimista",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "1984",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Revolução dos Bichos",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Hobbit",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Fahrenheit 451",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cem Anos de Solidão",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Código Da Vinci",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Mestre e Margarida",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Guia do Mochileiro das Galáxias",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Metamorfose",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Sol é para Todos",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Grande Gatsby",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Guerra dos Tronos",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Orgulho e Preconceito",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Retrato de Dorian Gray",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Senhor das Moscas",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Processo",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Homem Invisível",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Memórias Póstumas de Brás Cubas",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ulisses",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Odisseia",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cegueira",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Moby Dick",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ensaio Sobre a Cegueira",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A Montanha Mágica",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Senhor dos Anéis - A Sociedade do Anel",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A Peste",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Crime e Castigo",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Estrangeiro",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Processo de Kafka",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Odisseia de Homero",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Inferno de Dante",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Livro do Desassossego",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A Divina Comédia",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Último dos Moicanos",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Homem que Calculava",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Coração das Trevas",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A Morte de Ivan Ilitch",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Senhor dos Anéis - As Duas Torres",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Silmarillion",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Conde de Monte Cristo",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Os Miseráveis",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A Ilha do Tesouro",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Dom Quixote",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Chamado Selvagem",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Corcunda de Notre-Dame",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Nome da Rosa",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Vida de Pi",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Diário de Anne Frank",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Leão, a Feiticeira e o Guarda-Roupa",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Cavaleiro das Trevas",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Último Catatumbo",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A República",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Pequeno Príncipe",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Os Irmãos Karamazov",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Lolita",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Madame Bovary",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Barco",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Livro da Selva",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Jardim Secreto",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "A Estrada",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Mundo de Sofia",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Insustentável Leveza do Ser",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Lobo da Estepe",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Menino do Pijama Listrado",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Diário de um Banana",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Livro das Sombras",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Sonho de Uma Noite de Verão",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Rei Leão",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Nome da Rosa",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Código Da Vinci",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Hora da Estrela",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Velho e o Mar",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Médico e o Monstro",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "As Aventuras de Sherlock Holmes",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Drácula",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Grande Gatsby",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Pequena Sereia",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Morro dos Ventos Uivantes",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Retrato de Dorian Gray",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Senhor dos Anéis - O Retorno do Rei",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Os Miseráveis",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Príncipe",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Livro da Vida",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "1984",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Menino que Aprendeu a Ver",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Hobbit",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Poderoso Chefão",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Conto da Aia",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Máquina do Tempo",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Filho Eterno",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Jogo da Amarelinha",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Vendedor de Sonhos",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "A Casa dos Espíritos",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Coração das Trevas",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A Montanha Mágica",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cem Anos de Solidão",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Evangelho Segundo Jesus Cristo",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Feiticeiro de Oz",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Caso dos Exploradores de Cavernas",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Segundo Sexo",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Nascimento da Tragédia",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Lobo da Estepe",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A Insustentável Leveza do Ser",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Processo",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Moby Dick",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Sol é para Todos",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "A República",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A Metamorfose",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Grande Sertão: Veredas",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Senhor dos Anéis - As Duas Torres",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Moreninha",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Primo Basílio",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Dom Casmurro",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Cortiço",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "A Moreninha",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Primo Basílio",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Homem Invisível",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Guerra dos Tronos",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Livro do Desassossego",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Chamado Selvagem",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "A Ilha do Tesouro",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Lobo da Estepe",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Pequeno Príncipe",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Nome da Rosa",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Mulher na Janela",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Esperança",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Sol é para Todos",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Lado Bom da Vida",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Arte da Guerra",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Canto da Sereia",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Menino do Pijama Listrado",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Os Irmãos Karamazov",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Lolita",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Madame Bovary",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A Morte de Ivan Ilitch",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A Peste",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Inferno de Dante",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "A Cabana",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "A Insustentável Leveza do Ser",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cegueira",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Guia do Mochileiro das Galáxias",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "A Vida de Pi",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Senhor dos Anéis",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "As Crônicas de Nárnia",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Alquimista",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Harry Potter e a Pedra Filosofal",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Senhor das Moscas",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Chamado Selvagem",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Lobo da Estepe",
+    "category": "Livros",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "O Pequeno Príncipe",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "O Conto da Aia",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Fahrenheit 451",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Senhor dos Anéis",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Orgulho e Preconceito",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "O Retrato de Dorian Gray",
+    "category": "Livros",
+    "difficulty": "Média"
+  },
+  {
+    "word": "A Ilha do Tesouro",
+    "category": "Livros",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pacman",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Tetris",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Super Mario",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Minecraft",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "FIFA",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Street Fighter",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Sonic",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pokémon",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "The Legend of Zelda",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Donkey Kong",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Overwatch",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "League of Legends",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Fortnite",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Counter-Strike",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Valorant",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Call of Duty",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Red Dead Redemption",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Assassin's Creed",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Witcher",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dark Souls",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Doom",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "World of Warcraft",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "GTA V",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Halo",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sekiro",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Diablo",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pokémon Go",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Battlefield",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "BioShock",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Metal Gear Solid",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Minecraft Dungeons",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Street Fighter V",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Minecraft Bedrock",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Final Fantasy",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Zelda: Breath of the Wild",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Metroid Prime",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Elden Ring",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bloodborne",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Hollow Knight",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cuphead",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Celeste",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Last of Us",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Resident Evil 4",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "XCOM",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Dead Souls",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Nier: Automata",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Final Fantasy VII",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Elder Scrolls V",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Dark Souls III",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Super Smash Bros.",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Monster Hunter",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Borderlands",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Outer Worlds",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Hades",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tales of Vesperia",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Uncharted",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Persona 5",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Assassin's Creed Odyssey",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Hitman",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Lords of the Fallen",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Nioh",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Kingdom Come: Deliverance",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Kingdom Hearts",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "F1 2020",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Witcher 3",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tomb Raider",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Mass Effect",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Super Mario Odyssey",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Apex Legends",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Rocket League",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Fall Guys",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Among Us",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Super Smash Bros. Ultimate",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Candy Crush Saga",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Angry Birds",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Temple Run",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Clash Royale",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Clash of Clans",
+    "category": "Jogos",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "World War Z",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sea of Thieves",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Hearthstone",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Plants vs Zombies",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Subnautica",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "No Man's Sky",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Stardew Valley",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Star Wars Battlefront",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Rocket League",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Farming Simulator",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Madden NFL",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "NBA 2K",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Spiderman PS4",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Brawl Stars",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dota 2",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Sims 4",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Tekken 7",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Watch Dogs",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Far Cry 5",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Minecraft Earth",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Spelunky",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Division",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Mass Effect 2",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "League of Legends",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "FIFA 20",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Shadow of the Tomb Raider",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Kingdom Hearts III",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Metal Gear Solid V",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Resident Evil Village",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Scribblenauts",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dead by Daylight",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Walking Dead",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Worms",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "The Forest",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Gears of War",
+    "category": "Jogos",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dark Souls II",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Hunt: Showdown",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Witcher 2",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Mortal Kombat X",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Hollow Knight",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Gears of War 4",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cuphead",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Outer Worlds",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Dead Cells",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Nioh 2",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sekiro: Shadows Die Twice",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "God of War 4",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Devil May Cry 5",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Monster Hunter World",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Dark Souls Remastered",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bloodborne",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Nier Replicant",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Dragon Age: Inquisition",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Persona 5 Royal",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Elder Scrolls V: Skyrim",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Tales of Arise",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Uncharted 4",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Mortal Kombat 11",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Diablo III",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "For Honor",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Shadow of Mordor",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Assassin's Creed Valhalla",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Final Fantasy XV",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Just Cause 4",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Last of Us Part II",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Red Dead Redemption 2",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Prey",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Star Wars Jedi: Fallen Order",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Control",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Alien Isolation",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Subnautica: Below Zero",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Furi",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Nex Machina",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Enter the Gungeon",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Rogue Legacy",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Hyper Light Drifter",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "The Binding of Isaac",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Spelunky 2",
+    "category": "Jogos",
+    "difficulty": "Difícil"
+  }
+]

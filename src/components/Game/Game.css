@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.end-game-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.restart-button {
+  background-color: #32cd32;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.restart-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(50, 205, 50, 0.4);
+}
+
+.home-button {
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(255, 69, 0, 0.4);
+}
+
+.start-button,
+.pass-button,
+.correct-button {
+  background-color: #ffd700;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  margin: 10px;
+  font-size: 1.1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.start-button:hover,
+.pass-button:hover,
+.correct-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.4);
+}
+
+.pass-button {
+  background-color: #ffa500;
+}
+
+.correct-button {
+  background-color: #32cd32;
+}
+
+.countdown {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #ffd700;
+  animation: countdownAnimation 1s ease-out infinite;
+}
+
+@keyframes countdownAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.timer-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timer-bar {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: width 1s linear;
+}
+
+.barBlinking {
+  animation: barBlinkingAnimation 1s infinite;
+}
+
+@keyframes barBlinkingAnimation {
+  0%,
+  100% {
+    background-color: #fff;
+  }
+  50% {
+    background-color: #ffd700;
+  }
+}
+
+.timer {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.blinking {
+  animation: blinkingAnimation 1s infinite;
+}
+
+@keyframes blinkingAnimation {
+  0%,
+  100% {
+    color: #fff;
+  }
+  50% {
+    color: #ffd700;
+  }
+}
+
+.word-card {
+  border: 3px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 70%;
+  max-width: 400px;
+  animation: cardEnter 0.5s ease-in;
+}
+
+@keyframes cardEnter {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.category-icon {
+  font-size: 2rem;
+  display: block;
+  margin-top: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.end-game {
+  animation: fadeIn 0.7s ease-out;
+}
+
+.end-game h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .start-button,
+  .pass-button,
+  .correct-button {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .start-button,
+  .pass-button,
+  .correct-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+.game-container {
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.word-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  animation: fadeIn 1s ease-in;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  animation: fadeIn 1.2s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(120deg, #1e3c72, #2a5298);
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.7s ease-out;
+}
+
+@keyframes flashGreen {
+  0% {
+    background-color: transparent;
+    border-color: inherit;
+  }
+  50% {
+    background-color: rgba(50, 205, 50, 0.5);
+    border-color: #32cd32;
+  }
+  100% {
+    background-color: transparent;
+    border-color: inherit;
+  }
+}
+
+.flash-green {
+  animation: flashGreen 0.5s;
+}
+
+@keyframes flashOrange {
+  0% {
+    background-color: transparent;
+    border-color: inherit;
+  }
+  50% {
+    background-color: rgba(255, 165, 0, 0.5);
+    border-color: #ffa500;
+  }
+  100% {
+    background-color: transparent;
+    border-color: inherit;
+  }
+}
+
+.flash-orange {
+  animation: flashOrange 0.5s;
+}
