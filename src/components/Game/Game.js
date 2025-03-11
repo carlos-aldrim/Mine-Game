@@ -20,16 +20,14 @@ function Game({ difficulty, categories, words }) {
   const [gameWords, setGameWords] = useState([]);
   const motionCooldownRef = useRef(false);
   const [processing, setProcessing] = useState(false);
-
-  const [shouldRotate, setShouldRotate] = useState(false);
+  const [isPortrait, setIsPortrait] = useState(window.innerWidth < window.innerHeight);
 
   useEffect(() => {
-    const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      navigator.userAgent
-    );
-    if (isMobileDevice && window.innerWidth < window.innerHeight) {
-      setShouldRotate(true);
-    }
+    const handleResize = () => {
+      setIsPortrait(window.innerWidth < window.innerHeight);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   const filteredWords = words.filter(
@@ -54,7 +52,7 @@ function Game({ difficulty, categories, words }) {
     const handleMotion = (event) => {
       if (!event.rotationRate) return;
       if (motionCooldownRef.current) return;
-
+    
       if (gameStarted && countdown === 0 && timeLeft > 0) {
         const { beta } = event.rotationRate;
         if (beta > 40) {
@@ -165,8 +163,16 @@ function Game({ difficulty, categories, words }) {
     titleEmoji = "🎭";
   }
 
+  if (isPortrait && window.innerWidth < 768) {
+    return (
+      <div className="rotate-message">
+        <p>Por favor, rotacione seu dispositivo para o modo paisagem para jogar.</p>
+      </div>
+    );
+  }
+
   return (
-    <div className={shouldRotate ? "landscape-container" : "game"}>
+    <div className="game">
       {showConfetti && <Confetti />}
 
       <h2 className="title">
@@ -210,16 +216,17 @@ function Game({ difficulty, categories, words }) {
       )}
 
       {!gameStarted && timeLeft === 60 && (
-        <>
+        <div>
           <h3 className="subtitle">Desafie sua criatividade!</h3>
           <p className="description">
-            Use as setas do teclado ou os botões para passar ou acertar a palavra
-            exibida. Prepare-se para uma experiência divertida e dinâmica!
+            Use as setas do teclado ou os botões para passar ou acertar a
+            palavra exibida. Prepare-se para uma experiência divertida e
+            dinâmica!
           </p>
           <button className="start-button" onClick={startGame}>
             <FaPlay /> Iniciar
           </button>
-        </>
+        </div>
       )}
 
       {(!gameStarted || gameWords.length === 0) && timeLeft < 60 && (

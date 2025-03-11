@@ -42,7 +42,7 @@ body {
 
 .difficulty-card {
   width: 180px;
-  height: 220px;
+  height: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
