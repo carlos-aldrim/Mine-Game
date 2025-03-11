@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Confetti from "react-confetti";
 import {
   FaCheck,
@@ -18,6 +18,7 @@ function Game({ difficulty, categories, words }) {
   const [showConfetti, setShowConfetti] = useState(false);
   const [animationClass, setAnimationClass] = useState("");
   const [gameWords, setGameWords] = useState([]);
+  const motionCooldownRef = useRef(false);
 
   const filteredWords = words.filter(
     (word) =>
@@ -29,7 +30,6 @@ function Game({ difficulty, categories, words }) {
       alert("Nenhuma palavra disponível para este filtro!");
       return;
     }
-
     const shuffled = [...filteredWords].sort(() => Math.random() - 0.5);
     setGameWords(shuffled);
     setGameStarted(true);
@@ -40,25 +40,34 @@ function Game({ difficulty, categories, words }) {
 
   useEffect(() => {
     const handleMotion = (event) => {
+      if (!event.rotationRate) return;
+      if (motionCooldownRef.current) return;
+
       if (gameStarted && countdown === 0 && timeLeft > 0) {
-        const { beta } = event.rotationRate || {};
-  
+        const { beta } = event.rotationRate;
         if (beta > 20) {
+          motionCooldownRef.current = true;
           handleCorrect();
+          setTimeout(() => {
+            motionCooldownRef.current = false;
+          }, 1000);
         } else if (beta < -20) {
+          motionCooldownRef.current = true;
           handlePass();
+          setTimeout(() => {
+            motionCooldownRef.current = false;
+          }, 1000);
         }
       }
     };
-  
+
     if (window.DeviceMotionEvent) {
       window.addEventListener("devicemotion", handleMotion);
     }
-  
     return () => {
       window.removeEventListener("devicemotion", handleMotion);
     };
-  }, [gameStarted, countdown, timeLeft, gameWords]);  
+  }, [gameStarted, countdown, timeLeft, gameWords]);
 
   useEffect(() => {
     if (!gameStarted) return;
@@ -132,7 +141,7 @@ function Game({ difficulty, categories, words }) {
   const currentWord = gameWords.length > 0 ? gameWords[0] : null;
 
   let titleEmoji;
-  if (timeLeft === 0) {
+  if (!gameStarted && timeLeft < 60) {
     titleEmoji = score > 0 ? "🎊" : "😢";
   } else {
     titleEmoji = "🎭";
@@ -146,35 +155,17 @@ function Game({ difficulty, categories, words }) {
         {titleEmoji} Jogo de Mímica {titleEmoji}
       </h2>
 
-      {timeLeft !== 0 && gameWords.length > 0 && (
-        <>
-          <h3 className="subtitle">Desafie sua criatividade!</h3>
-          <p className="description">
-            Use as setas do teclado ou os botões para passar ou acertar a
-            palavra exibida. Prepare-se para uma experiência divertida e
-            dinâmica!
-          </p>
-        </>
-      )}
-
-      {!gameStarted && timeLeft === 20 && (
-        <button className="start-button" onClick={startGame}>
-          <FaPlay /> Iniciar
-        </button>
-      )}
-
-      {gameStarted && countdown > 0 && (
+      {gameStarted && timeLeft > 0 && countdown > 0 && (
         <div className="countdown">{countdown}</div>
       )}
 
-      {gameStarted && countdown === 0 && timeLeft > 0 && currentWord ? (
+      {gameStarted && countdown === 0 && timeLeft > 0 && currentWord && (
         <div className="game-container">
           <div className="timer-container">
             <div
               className={`timer-bar ${timeLeft <= 15 ? "barBlinking" : ""}`}
-              style={{ width: `${(timeLeft / 20) * 100}%` }}
+              style={{ width: `${(timeLeft / 60) * 100}%` }}
             ></div>
-
             <div className={`timer ${timeLeft <= 15 ? "blinking" : ""}`}>
               <FaClock /> {Math.floor(timeLeft / 60)}:
               {(timeLeft % 60).toString().padStart(2, "0")}
@@ -198,13 +189,22 @@ function Game({ difficulty, categories, words }) {
             </button>
           </div>
         </div>
-      ) : (
-        gameStarted &&
-        countdown === 0 &&
-        timeLeft > 0 && <p>Carregando palavra...</p>
       )}
 
-      {(!gameStarted || gameWords.length === 0) && timeLeft !== 20 && (
+      {!gameStarted && timeLeft === 60 && (
+        <>
+          <h3 className="subtitle">Desafie sua criatividade!</h3>
+          <p className="description">
+            Use as setas do teclado ou os botões para passar ou acertar a palavra
+            exibida. Prepare-se para uma experiência divertida e dinâmica!
+          </p>
+          <button className="start-button" onClick={startGame}>
+            <FaPlay /> Iniciar
+          </button>
+        </>
+      )}
+
+      {(!gameStarted || gameWords.length === 0) && timeLeft < 60 && (
         <div className="end-game">
           {score > 0 ? (
             <>

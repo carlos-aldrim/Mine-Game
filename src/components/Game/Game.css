@@ -1,71 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
-.end-game-buttons {
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(120deg, #1e3c72, #2a5298);
+  color: white;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-.restart-button {
-  background-color: #32cd32;
-  color: #fff;
-  border: none;
-  padding: 15px 30px;
-  cursor: pointer;
-  border-radius: 25px;
-  font-size: 1.1rem;
-  transition: transform 0.3s, box-shadow 0.3s;
-  display: inline-flex;
   align-items: center;
-  gap: 8px;
 }
 
-.restart-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 6px 15px rgba(50, 205, 50, 0.4);
+.game {
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.7s ease-out;
 }
 
-.home-button {
-  background-color: #ff4500;
-  color: #fff;
-  border: none;
-  padding: 15px 30px;
-  cursor: pointer;
-  border-radius: 25px;
-  font-size: 1.1rem;
-  transition: transform 0.3s, box-shadow 0.3s;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
 }
 
-.home-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 6px 15px rgba(255, 69, 0, 0.4);
+.subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  animation: fadeIn 1s ease-in;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  animation: fadeIn 1.2s ease-in;
 }
 
 .start-button,
 .pass-button,
-.correct-button {
+.correct-button,
+.restart-button,
+.home-button {
   background-color: #ffd700;
   color: #fff;
   border: none;
   padding: 15px 30px;
   cursor: pointer;
   border-radius: 25px;
-  margin: 10px;
   font-size: 1.1rem;
   transition: transform 0.3s, box-shadow 0.3s;
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  margin: 10px;
 }
 
 .start-button:hover,
 .pass-button:hover,
-.correct-button:hover {
+.correct-button:hover,
+.restart-button:hover,
+.home-button:hover {
   transform: scale(1.05);
   box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.4);
 }
@@ -74,8 +74,13 @@
   background-color: #ffa500;
 }
 
-.correct-button {
+.correct-button,
+.restart-button {
   background-color: #32cd32;
+}
+
+.home-button {
+  background-color: #ff4500;
 }
 
 .countdown {
@@ -147,14 +152,35 @@
   }
 }
 
+.word-card:hover {
+  transform: scale(1.05);
+}
+
 .word-card {
   border: 3px solid #fff;
   border-radius: 10px;
   padding: 20px;
   margin: 20px auto;
-  width: 70%;
+  width: 95%;
   max-width: 400px;
   animation: cardEnter 0.5s ease-in;
+  transition: transform 0.3s;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .word-card {
+    padding: 15px;
+    margin: 15px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .word-card {
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 0.9rem;
+  }
 }
 
 @keyframes cardEnter {
@@ -177,6 +203,8 @@
 .button-group {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: 20px;
 }
 
@@ -189,103 +217,12 @@
   margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-  .title {
-    font-size: 2rem;
-  }
-
-  .start-button,
-  .pass-button,
-  .correct-button {
-    padding: 12px 25px;
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .title {
-    font-size: 1.6rem;
-  }
-
-  .start-button,
-  .pass-button,
-  .correct-button {
-    padding: 10px 20px;
-    font-size: 0.9rem;
-  }
-}
-
-.game-container {
-  animation: slideIn 0.5s ease-out;
-}
-
-@keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateY(20%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.word-card:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s;
-}
-
-.title {
-  font-size: 2.5rem;
-  font-weight: 600;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-  margin-bottom: 20px;
-}
-
-.subtitle {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-  animation: fadeIn 1s ease-in;
-}
-
-.description {
-  font-size: 1rem;
-  margin-bottom: 20px;
-  animation: fadeIn 1.2s ease-in;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  background: linear-gradient(120deg, #1e3c72, #2a5298);
-  color: white;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+.end-game-buttons {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.game {
-  text-align: center;
-  width: 100%;
-  max-width: 800px;
-  padding: 20px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.7);
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
-  animation: fadeIn 0.7s ease-out;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 @keyframes flashGreen {
@@ -324,4 +261,73 @@ body {
 
 .flash-orange {
   animation: flashOrange 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.game-container {
+  animation: slideIn 0.5s ease-out;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  .start-button,
+  .pass-button,
+  .correct-button,
+  .restart-button,
+  .home-button {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+  .word-card {
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.6rem;
+  }
+  .subtitle {
+    font-size: 1.3rem;
+  }
+  .start-button,
+  .pass-button,
+  .correct-button,
+  .restart-button,
+  .home-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+  .timer {
+    font-size: 1rem;
+  }
+  .countdown {
+    font-size: 2.5rem;
+  }
 }
