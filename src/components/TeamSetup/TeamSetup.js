@@ -39,7 +39,7 @@ function TeamSetup({ onSetupComplete }) {
       </h3>
       <div className="select-group">
         <div>
-          <label>Nº de Jogadores:</label>
+          <label>Nº de Equipe:</label>
           <select value={numPlayers} onChange={handleNumPlayersChange}>
             {[2, 3, 4, 5, 6].map((num) => (
               <option key={num} value={num}>
@@ -66,7 +66,7 @@ function TeamSetup({ onSetupComplete }) {
           <input
             key={index}
             type="text"
-            placeholder={`Nome do Jogador ${index + 1}`}
+            placeholder={`Nome da Equipe ${index + 1}`}
             value={player}
             onChange={(e) => handlePlayerChange(index, e.target.value)}
           />
