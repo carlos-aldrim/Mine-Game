@@ -3,8 +3,8 @@ import "./DifficultySelection.css";
 
 function DifficultySelection({ onSelect }) {
   const difficulties = [
-    { level: "Fácil", color: "#FFD700", description: "Ideal para iniciantes!" },
-    { level: "Média", color: "#FFA500", description: "Um desafio equilibrado." },
+    { level: "Fácil", color: "#FFA500", description: "Ideal para iniciantes!" },
+    { level: "Média", color: "#FF7500", description: "Um desafio equilibrado." },
     { level: "Difícil", color: "#FF4500", description: "Para os mestres!" },
   ];
 

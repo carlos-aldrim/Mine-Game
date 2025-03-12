@@ -59,6 +59,7 @@ body {
 .pass-button,
 .correct-button,
 .restart-button,
+.next-game-button,
 .home-button {
   position: relative;
   overflow: hidden;
@@ -80,6 +81,7 @@ body {
 .pass-button::after,
 .correct-button::after,
 .restart-button::after,
+.next-game-button::after,
 .home-button::after {
   content: "";
   position: absolute;
@@ -96,6 +98,7 @@ body {
 .pass-button:hover::after,
 .correct-button:hover::after,
 .restart-button:hover::after,
+.next-game-button:hover::after,
 .home-button:hover::after {
   left: 200%;
 }
@@ -114,6 +117,7 @@ body {
 }
 
 .correct-button,
+.next-game-button,
 .restart-button {
   background-color: #32cd32;
 }
@@ -370,3 +374,34 @@ body {
     font-size: 2.5rem;
   }
 }
+
+.results-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.results-item {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.player-name {
+  color: #fff;
+  font-weight: bold;
+}
+
+.player-score {
+  color: #fff;
+  margin: 0 5px;
+}
+
+.winner-title {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ff9900;
+  text-transform: uppercase;
+}
+

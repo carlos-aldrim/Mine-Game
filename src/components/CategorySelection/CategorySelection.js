@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaPaw, FaFilm, FaFutbol, FaBox, FaMusic, FaUtensils, FaPlane, FaBook, FaGamepad } from "react-icons/fa";
+import { FaPaw, FaFilm, FaFutbol, FaBox, FaMusic, FaUtensils, FaPlane, FaBook, FaGamepad, FaArrowRight } from "react-icons/fa";
 import "./CategorySelection.css";
 
 const categories = [
@@ -16,7 +16,7 @@ const categories = [
 
 function CategorySelection({ onSelect }) {
   const [selected, setSelected] = useState([]);
-  const [showInstructions, setShowInstructions] = useState(true);
+  const [showInstructions] = useState(true);
 
   const toggleCategory = (category) => {
     if (selected.includes(category)) {
@@ -53,7 +53,7 @@ function CategorySelection({ onSelect }) {
       </div>
 
       <button className="continue-button" onClick={handleSubmit}>
-        Continuar ▶
+        Continuar <FaArrowRight className="icon" />
       </button>
     </div>
   );

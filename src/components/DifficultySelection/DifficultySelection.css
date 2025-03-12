@@ -2,7 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(120deg, #1e3c72, #2a5298);
+  background: linear-gradient(120deg, #1e3c72, #2a5298, #3f5efb);
   color: white;
   text-align: center;
   margin: 0;
@@ -18,6 +18,7 @@ body {
   width: 100%;
   padding: 0 20px;
   box-sizing: border-box;
+  animation: fadeIn 1s ease-out;
 }
 
 .title {
@@ -41,6 +42,8 @@ body {
 }
 
 .difficulty-card {
+  position: relative;
+  overflow: hidden;
   width: 180px;
   height: 10rem;
   display: flex;
@@ -52,9 +55,26 @@ body {
   transition: transform 0.3s, box-shadow 0.3s;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   font-weight: 600;
-  color: #000;
+  color: #fff;
   padding: 10px;
   margin: 10px;
+  animation: fadeIn 1s ease-out;
+}
+
+.difficulty-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: skewX(-45deg);
+  transition: all 0.5s ease;
+}
+
+.difficulty-card:hover::after {
+  left: 200%;
 }
 
 .difficulty-card:hover {
@@ -122,5 +142,16 @@ body {
 
   .difficulty-card p {
     font-size: 0.8rem;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
