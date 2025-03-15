@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import CategoryButton from "../../components/CategoryButton/CategoryButton";
 import ContinueButton from "../../components/ContinueButton/ContinueButton";
 import styles from "./CategorySelection.module.css";
+import { FaList, FaCheckCircle } from "react-icons/fa";
 import {
   FaPaw,
   FaFilm,
@@ -46,10 +47,14 @@ const CategorySelection = ({ onSelect }) => {
 
   return (
     <div className={styles.categorySelection}>
-      <h1 className={styles.title}>🎭 Escolha suas Categorias 🎭</h1>
+      <div className={styles.titleContainer}>
+        <FaCheckCircle className={styles.icon} />
+        <h1 className={styles.title}>Escolha suas Categorias</h1>
+        <FaCheckCircle className={styles.icon} />
+      </div>
       {showInstructions && (
         <h3 className={styles.subtitle}>
-          Selecione pelo menos 3 para continuar
+          <FaList className={styles.iconLeft} /> Selecione pelo menos 3 para continuar
         </h3>
       )}
 

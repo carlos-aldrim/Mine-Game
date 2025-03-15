@@ -1,7 +1,7 @@
 .continueButton {
   position: relative;
   overflow: hidden;
-  margin-top: 30px;
+  margin-top: 20px;
   background-color: #ffd700;
   color: white;
   border: none;
@@ -11,6 +11,7 @@
   font-size: 1.3rem;
   font-weight: 600;
   transition: transform 0.3s, box-shadow 0.3s;
+  height: 60px;
 }
 
 .continueButton:hover {
@@ -32,18 +33,4 @@
 
 .continueButton:hover::after {
   left: 200%;
-}
-
-@media (max-width: 768px) {
-  .continueButton {
-    font-size: 1.2rem;
-    padding: 10px 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .continueButton {
-    font-size: 1.1rem;
-    padding: 8px 15px;
-  }
 }

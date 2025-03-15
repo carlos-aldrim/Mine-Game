@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Confetti from "react-confetti";
-import { FaPlay, FaForward, FaRedo, FaHome } from "react-icons/fa";
-import styles from "./TeamGame.module.css"; // Importação correta do módulo CSS
+import { FaPlay, FaForward } from "react-icons/fa";
+import styles from "./TeamGame.module.css";
 import Timer from "../../components/Timer/Timer";
 import WordCard from "../../components/WordCard/WordCard";
 import GameControls from "../../components/GameControls/GameControls";

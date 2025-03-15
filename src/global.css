@@ -12,3 +12,15 @@ body {
   align-items: center;
   overflow-x: hidden;
 }
+
+.rotate-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e3c72;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px;
+}

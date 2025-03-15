@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './EndGame.module.css';
 
-const EndGame = ({ winner, onRestart, onHome }) => {
+const EndGame = ({ score, onRestart, onHome }) => {
   return (
     <div className={styles.endGame}>
-      <h3>Parabéns, {winner}!</h3>
+      <h3>Parabéns!</h3>
+      <p>Sua pontuação foi de {score} pontos</p>
       <div className={styles.endGameButtons}>
         <button className={styles.restartButton} onClick={onRestart}>
           Reiniciar

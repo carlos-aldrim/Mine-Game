@@ -30,15 +30,3 @@
   outline: none;
   border-color: #32cd32;
 }
-
-@media (max-width: 768px) {
-  .inputField {
-    width: 150px;
-  }
-}
-
-@media (max-width: 480px) {
-  .inputField {
-    width: 120px;
-  }
-}

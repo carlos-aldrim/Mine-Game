@@ -15,7 +15,6 @@ function Game({ difficulty, categories, words }) {
   const [showConfetti, setShowConfetti] = useState(false);
   const [animationClass, setAnimationClass] = useState("");
   const [gameWords, setGameWords] = useState([]);
-  const motionCooldownRef = useRef(false);
   const [processing, setProcessing] = useState(false);
 
   const filteredWords = words.filter(

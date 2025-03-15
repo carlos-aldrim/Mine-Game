@@ -44,30 +44,3 @@
   margin-top: 8px;
   opacity: 0.8;
 }
-
-@media (max-width: 768px) {
-  .difficultyCard {
-    width: 150px;
-    height: 180px;
-  }
-}
-
-@media (max-width: 480px) {
-  .difficultyCard {
-    width: 120px;
-    height: 150px;
-  }
-  .difficultyCard p {
-    font-size: 0.8rem;
-  }
-}
-
-@media (width: 360px) {
-  .difficultyCard {
-    width: 100px;
-    height: 130px;
-  }
-  .difficultyCard p {
-    font-size: 0.8rem;
-  }
-}

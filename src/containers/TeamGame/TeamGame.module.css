@@ -39,7 +39,8 @@
   margin-top: 20px;
 }
 
-.startButton, .nextGameButton, .restartButton, .homeButton {
+.startButton,
+.nextGameButton {
   background-color: #ffcc00;
   color: black;
   font-size: 1.2rem;
@@ -50,33 +51,17 @@
   transition: transform 0.3s;
 }
 
-.startButton:hover, .nextGameButton:hover, .restartButton:hover, .homeButton:hover {
+.startButton:hover,
+.nextGameButton:hover {
   transform: scale(1.1);
-}
-
-.flash-orange {
-  animation: flashOrange 0.5s;
-}
-
-.flash-green {
-  animation: flashGreen 0.5s;
-}
-
-@keyframes flashOrange {
-  0% { background-color: #ff9800; }
-  100% { background-color: transparent; }
-}
-
-@keyframes flashGreen {
-  0% { background-color: #4caf50; }
-  100% { background-color: transparent; }
 }
 
 @media (max-width: 768px) {
   .title {
     font-size: 1.8rem;
   }
-  .startButton, .nextGameButton, .restartButton, .homeButton {
+  .startButton,
+  .nextGameButton {
     font-size: 1rem;
     padding: 8px 16px;
   }

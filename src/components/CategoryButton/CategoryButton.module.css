@@ -1,7 +1,7 @@
 .categoryButton {
   position: relative;
   overflow: hidden;
-  height: 80px;
+  height: 75px;
   background-color: #ffa500;
   color: white;
   border: none;
@@ -12,14 +12,15 @@
   font-weight: 600;
   display: flex;
   align-items: center;
+  width: 140px;
   justify-content: center;
-  gap: 10px;
   transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .icon {
   font-size: 1.5rem;
+  margin-right: 10px;
 }
 
 .selected {
@@ -45,18 +46,4 @@
 
 .categoryButton:hover::after {
   left: 200%;
-}
-
-@media (max-width: 768px) {
-  .categoryButton {
-    font-size: 1rem;
-    height: 60px;
-  }
-}
-
-@media (max-width: 480px) {
-  .categoryButton {
-    height: 50px;
-    font-size: 0.9rem;
-  }
 }
