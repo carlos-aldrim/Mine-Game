@@ -35,13 +35,13 @@ function Game({ difficulty, categories, words }) {
         return;
 
       const { beta } = event.rotationRate;
-      if (beta > 70) {
+      if (beta > 150) {
         motionCooldownRef.current = true;
         handleCorrect();
         setTimeout(() => {
           motionCooldownRef.current = false;
         }, 1000);
-      } else if (beta < -70) {
+      } else if (beta < -150) {
         motionCooldownRef.current = true;
         handlePass();
         setTimeout(() => {
