@@ -1,24 +1,78 @@
 .setupContainer {
-  padding: 0px 20px;
-  border-radius: 15px;
-  max-width: 800px;
-  width: 100%;
   text-align: center;
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
   box-sizing: border-box;
-  animation: fadeIn 0.8s ease-out;
+  animation: fadeIn 1s ease-out;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 10px;
 }
 
 .title {
   font-size: 2.5rem;
   color: #fff;
+  margin: 0;
   margin-bottom: 10px;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.subtitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .subtitle {
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin: 0;
   opacity: 0.8;
+  display: inline-block;
+  text-align: center;
+}
+
+.iconLeft {
+  color: #fff;
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.selectGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.selectGroup label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.selectGroup select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid #ffa500;
+  background-color: #ffa500;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .nextButton {
@@ -27,16 +81,22 @@
   background: linear-gradient(45deg, #32cd32, #28a745);
   color: white;
   border: none;
-  padding: 12px 10px;
+  padding: 16px;
   font-size: 1.2rem;
   font-weight: bold;
   border-radius: 12px;
   cursor: pointer;
   transition: background 0.3s, transform 0.3s;
   width: 100%;
-  max-width: 10rem;
+  max-width: 250px;
   display: block;
   margin: 0 auto;
+  animation: mirrorEffect 1.5s infinite alternate ease-in-out;
+}
+
+.nextButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 6px 20px rgba(50, 205, 50, 0.6);
 }
 
 .nextButton::after {
@@ -55,10 +115,30 @@
   left: 200%;
 }
 
+@keyframes mirrorEffect {
+  0% {
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
   }
   to {
     opacity: 1;

@@ -6,27 +6,46 @@
   animation: fadeIn 1s ease-out;
 }
 
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 10px;
+}
+
 .title {
   font-size: 2.5rem;
   color: #fff;
+  margin: 0;
   margin-bottom: 10px;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
-  display: flex;
-  align-items: center;
 }
 
-.title svg {
-  margin: 10px;
+.subtitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .subtitle {
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin: 0;
   opacity: 0.8;
+  display: inline-block;
+  text-align: center;
 }
 
-.subtitle svg {
-  margin-right: 10px;
+.iconLeft {
+  color: #fff;
+  font-size: 0.75rem;
+  opacity: 0.8;
 }
 
 .buttonsContainer {

@@ -1,10 +1,10 @@
 .timerContainer {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .timerBar {
-  height: 10px;
+  height: 5px;
   border-radius: 5px;
   background-color: #fff;
   transition: width 1s linear;
@@ -30,7 +30,7 @@
   align-items: center;
   gap: 5px;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .blinking {

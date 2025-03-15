@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Confetti from "react-confetti";
-import { FaPlay } from "react-icons/fa";
+import { FaPlay, FaTheaterMasks, FaTrophy, FaSadTear } from "react-icons/fa";
 import styles from "./Game.module.css";
 import Timer from "../../components/Timer/Timer";
 import WordCard from "../../components/WordCard/WordCard";
@@ -16,10 +16,47 @@ function Game({ difficulty, categories, words }) {
   const [animationClass, setAnimationClass] = useState("");
   const [gameWords, setGameWords] = useState([]);
   const [processing, setProcessing] = useState(false);
+  const motionCooldownRef = useRef(false);
 
   const filteredWords = words.filter(
-    (word) => word.difficulty === difficulty && categories.includes(word.category)
+    (word) =>
+      word.difficulty === difficulty && categories.includes(word.category)
   );
+
+  useEffect(() => {
+    const handleMotion = (event) => {
+      if (
+        !event.rotationRate ||
+        motionCooldownRef.current ||
+        !gameStarted ||
+        countdown !== 0 ||
+        timeLeft <= 0
+      )
+        return;
+
+      const { beta } = event.rotationRate;
+      if (beta > 40) {
+        motionCooldownRef.current = true;
+        handleCorrect();
+        setTimeout(() => {
+          motionCooldownRef.current = false;
+        }, 1000);
+      } else if (beta < -40) {
+        motionCooldownRef.current = true;
+        handlePass();
+        setTimeout(() => {
+          motionCooldownRef.current = false;
+        }, 1000);
+      }
+    };
+
+    if (window.DeviceMotionEvent) {
+      window.addEventListener("devicemotion", handleMotion);
+    }
+    return () => {
+      window.removeEventListener("devicemotion", handleMotion);
+    };
+  }, [gameStarted, countdown, timeLeft, gameWords]);
 
   const startGame = () => {
     if (filteredWords.length === 0) {
@@ -52,15 +89,17 @@ function Game({ difficulty, categories, words }) {
   useEffect(() => {
     if (timeLeft === 0) {
       setGameStarted(false);
-      setShowConfetti(true);
-      setTimeout(() => setShowConfetti(false), 5000);
+      if (score > 0) {
+        setShowConfetti(true);
+        setTimeout(() => setShowConfetti(false), 5000);
+      }
     }
-  }, [timeLeft]);
+  }, [timeLeft, score]);
 
   const handlePass = () => {
     if (processing) return;
     setProcessing(true);
-    setAnimationClass(styles.flashOrange);
+    setAnimationClass("orange");
     setTimeout(() => {
       setGameWords((prev) => prev.slice(1));
       setAnimationClass("");
@@ -71,7 +110,7 @@ function Game({ difficulty, categories, words }) {
   const handleCorrect = () => {
     if (processing) return;
     setProcessing(true);
-    setAnimationClass(styles.flashGreen);
+    setAnimationClass("green");
     setTimeout(() => {
       setScore((prev) => prev + 1);
       setGameWords((prev) => prev.slice(1));
@@ -84,10 +123,23 @@ function Game({ difficulty, categories, words }) {
 
   return (
     <div className={styles.game}>
-      {showConfetti && <Confetti />}
+      {showConfetti && score > 0 && <Confetti />}
       <h2 className={styles.title}>
-        {(!gameStarted && timeLeft < 60 && score > 0) ? "🎊" : "🎭"} Jogo de Mímica{" "}
-        {(!gameStarted && timeLeft < 60 && score > 0) ? "🎊" : "🎭"}
+        {!gameStarted && timeLeft < 60 && score > 0 ? (
+          <FaTrophy />
+        ) : score === 0 && !gameStarted && timeLeft < 60 ? (
+          <FaSadTear />
+        ) : (
+          <FaTheaterMasks />
+        )}{" "}
+        Jogo de Mímica
+        {!gameStarted && timeLeft < 60 && score > 0 ? (
+          <FaTrophy />
+        ) : score === 0 && !gameStarted && timeLeft < 60 ? (
+          <FaSadTear />
+        ) : (
+          <FaTheaterMasks />
+        )}{" "}
       </h2>
 
       {gameStarted && timeLeft > 0 && countdown > 0 && (
@@ -95,10 +147,14 @@ function Game({ difficulty, categories, words }) {
       )}
 
       {gameStarted && countdown === 0 && timeLeft > 0 && currentWord ? (
-        <div className={styles.gameContainer}>
+        <div>
           <Timer timeLeft={timeLeft} blinking={timeLeft <= 15} />
-          <WordCard currentWord={currentWord} animationClass={animationClass} borderColor={difficulty.color} />
-          <GameControls handlePass={handlePass} handleCorrect={handleCorrect} disabled={timeLeft <= 0} />
+          <WordCard
+            currentWord={currentWord}
+            animationClass={animationClass}
+            borderColor={difficulty.color}
+          />
+          <GameControls handlePass={handlePass} handleCorrect={handleCorrect} />
         </div>
       ) : null}
 
@@ -106,7 +162,8 @@ function Game({ difficulty, categories, words }) {
         <div>
           <h3 className={styles.subtitle}>Desafie sua criatividade!</h3>
           <p className={styles.description}>
-            Use as setas do teclado ou os botões para passar ou acertar a palavra.
+            Use as setas do teclado ou os botões para passar ou acertar a
+            palavra.
           </p>
           <button className={styles.startButton} onClick={startGame}>
             <FaPlay /> Iniciar
@@ -115,7 +172,16 @@ function Game({ difficulty, categories, words }) {
       )}
 
       {!gameStarted && timeLeft < 60 && (
-        <EndGame score={score} restartGame={startGame} homeAction={() => window.location.reload()} />
+        <EndGame
+          onRestart={startGame}
+          onHome={() => window.location.reload()}
+          title={score === 0 ? "Tente novamente," : "Parabéns!"}
+          subtitle={
+            score === 0
+              ? "Você não acertou nenhuma."
+              : "Sua pontuação foi de " + score + " ponto(s)."
+          }
+        />
       )}
     </div>
   );

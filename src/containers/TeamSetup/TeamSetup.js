@@ -1,6 +1,6 @@
 import { useState } from "react";
-import styles from "./TeamSetup.module.css";  // Importação do módulo CSS
-import { FaForward } from "react-icons/fa";
+import styles from "./TeamSetup.module.css";
+import { FaForward, FaUsers, FaChevronRight } from "react-icons/fa";
 import SelectGroup from "../../components/SelectGroup/SelectGroup";
 import PlayersInputs from "../../components/PlayersInputs/PlayersInputs";
 
@@ -35,8 +35,16 @@ function TeamSetup({ onSetupComplete }) {
 
   return (
     <div className={styles.setupContainer}>
-      <h1 className={styles.title}>👥 Configuração da Equipe 👥</h1>
-      <h3 className={styles.subtitle}>Configure seu jogo e prepare-se para o desafio!</h3>
+      <div className={styles.titleContainer}>
+        <FaUsers className={styles.icon} />
+        <h1 className={styles.title}>Configuração da Equipe</h1>
+        <FaUsers className={styles.icon} />
+      </div>
+
+      <div className={styles.subtitleContainer}>
+        <FaChevronRight className={styles.iconLeft} />
+        <h3 className={styles.subtitle}>Configure seu jogo e prepare-se para o desafio!</h3>
+      </div>
       
       <SelectGroup
         numPlayers={numPlayers}

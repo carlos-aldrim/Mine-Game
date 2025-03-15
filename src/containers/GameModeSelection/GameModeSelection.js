@@ -1,18 +1,20 @@
 import React from "react";
-import { FaGamepad } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+import { FaGamepad, FaChevronRight } from "react-icons/fa";
 import ModeButton from "../../components/ModeButton/ModeButton";
 import styles from "./GameModeSelection.module.css";
 
 function GameModeSelection({ onSelect }) {
   return (
     <div className={styles.modeSelection}>
-      <h1 className={styles.title}>
-        <FaGamepad /> Escolha o Modo de Jogo <FaGamepad />
-      </h1>
-      <h3 className={styles.subtitle}>
-        <FiUsers /> Selecione o modo de jogar para iniciar a diversão!
-      </h3>
+      <div className={styles.titleContainer}>
+        <FaGamepad className={styles.icon} />
+        <h1 className={styles.title}>Escolha o Modo de Jogo</h1>
+        <FaGamepad className={styles.icon} />
+      </div>
+      <div className={styles.subtitleContainer}>
+        <FaChevronRight className={styles.iconLeft} />
+        <h3 className={styles.subtitle}>Selecione o modo de jogar para iniciar a diversão!</h3>
+      </div>
       <div className={styles.buttonsContainer}>
         <ModeButton
           mode="solo"

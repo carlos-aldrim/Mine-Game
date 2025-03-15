@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useRef } from "react";
 import Confetti from "react-confetti";
-import { FaPlay, FaForward } from "react-icons/fa";
+import { FaForward, FaPlay, FaTheaterMasks } from "react-icons/fa";
 import styles from "./TeamGame.module.css";
 import Timer from "../../components/Timer/Timer";
 import WordCard from "../../components/WordCard/WordCard";
 import GameControls from "../../components/GameControls/GameControls";
-import TeamRoundInfo from "../../components/TeamRoundInfo/TeamRoundInfo";
 
 function TeamGame({ difficulty, categories, words, players, rounds }) {
   const totalMatches = rounds * players.length;
+
   const [gameStarted, setGameStarted] = useState(false);
   const [timeLeft, setTimeLeft] = useState(60);
   const [score, setScore] = useState(0);
@@ -17,17 +17,46 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
   const [animationClass, setAnimationClass] = useState("");
   const [gameWords, setGameWords] = useState([]);
   const [processing, setProcessing] = useState(false);
-  const motionCooldownRef = useRef(false);
-
   const [currentRound, setCurrentRound] = useState(1);
   const [currentPlayerIndex, setCurrentPlayerIndex] = useState(0);
   const [matchesPlayed, setMatchesPlayed] = useState(0);
   const [totalScores, setTotalScores] = useState({});
+  const motionCooldownRef = useRef(false);
+
+  const currentWord = gameWords.length > 0 ? gameWords[0] : null;
 
   const filteredWords = words.filter(
     (word) =>
       word.difficulty === difficulty && categories.includes(word.category)
   );
+
+  useEffect(() => {
+    const handleMotion = (event) => {
+      if (!event.rotationRate || motionCooldownRef.current || !gameStarted || countdown !== 0 || timeLeft <= 0) return;
+
+      const { beta } = event.rotationRate;
+      if (beta > 40) {
+        motionCooldownRef.current = true;
+        handleCorrect();
+        setTimeout(() => {
+          motionCooldownRef.current = false;
+        }, 1000);
+      } else if (beta < -40) {
+        motionCooldownRef.current = true;
+        handlePass();
+        setTimeout(() => {
+          motionCooldownRef.current = false;
+        }, 1000);
+      }
+    };
+
+    if (window.DeviceMotionEvent) {
+      window.addEventListener("devicemotion", handleMotion);
+    }
+    return () => {
+      window.removeEventListener("devicemotion", handleMotion);
+    };
+  }, [gameStarted, countdown, timeLeft, gameWords]);
 
   const loadWords = () => {
     if (filteredWords.length === 0) {
@@ -37,33 +66,90 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
     return [...filteredWords].sort(() => Math.random() - 0.5);
   };
 
+  const totalScoresList = Object.entries(totalScores).map(
+    ([player, score]) => ({
+      player,
+      score,
+    })
+  );
+
+  const maxScore =
+    totalScoresList.length > 0
+      ? Math.max(...totalScoresList.map((p) => p.score))
+      : 0;
+  const winners = totalScoresList.filter((p) => p.score === maxScore);
+  const isTie = winners.length > 1;
+
   const startMatch = () => {
-    const wordsForMatch = loadWords();
-    setGameWords(wordsForMatch);
+    setGameWords(loadWords());
     setGameStarted(true);
     setCountdown(3);
     setTimeLeft(60);
     setScore(0);
   };
 
+  const resetGame = () => {
+    setScore(0);
+    setGameWords([]);
+    setTimeLeft(60);
+    setGameStarted(false);
+    setShowConfetti(false);
+    setCurrentRound(1);
+    setCurrentPlayerIndex(0);
+    setMatchesPlayed(0);
+    setTotalScores({});
+  };
+
+  const handlePass = () => {
+    if (processing || timeLeft <= 0) return;
+    setProcessing(true);
+    setAnimationClass("orange");
+    setTimeout(() => {
+      setGameWords((prevWords) =>
+        prevWords.length <= 1 ? loadWords() : prevWords.slice(1)
+      );
+      setAnimationClass("");
+      setProcessing(false);
+    }, 500);
+  };
+
+  const handleCorrect = () => {
+    if (processing || timeLeft <= 0) return;
+    setProcessing(true);
+    setAnimationClass("green");
+    setTimeout(() => {
+      setScore((prev) => prev + 1);
+      setGameWords((prevWords) =>
+        prevWords.length <= 1 ? loadWords() : prevWords.slice(1)
+      );
+      setAnimationClass("");
+      setProcessing(false);
+    }, 500);
+  };
+
   useEffect(() => {
     if (!gameStarted) return;
     if (countdown > 0) {
-      const id = setInterval(() => setCountdown((prev) => prev - 1), 1000);
-      return () => clearInterval(id);
+      const countdownTimer = setInterval(
+        () => setCountdown((prev) => prev - 1),
+        1000
+      );
+      return () => clearInterval(countdownTimer);
     }
   }, [gameStarted, countdown]);
 
   useEffect(() => {
     if (gameStarted && countdown === 0 && timeLeft > 0) {
-      const id = setInterval(() => setTimeLeft((prev) => prev - 1), 1000);
-      return () => clearInterval(id);
+      const timer = setInterval(() => setTimeLeft((prev) => prev - 1), 1000);
+      return () => clearInterval(timer);
     }
   }, [gameStarted, countdown, timeLeft]);
 
   useEffect(() => {
     if (gameStarted && timeLeft === 0) {
       setGameStarted(false);
+      setShowConfetti(true);
+      setTimeout(() => setShowConfetti(false), 5000);
       const currentPlayer = players[currentPlayerIndex];
       setTotalScores((prev) => ({
         ...prev,
@@ -73,74 +159,66 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
     }
   }, [gameStarted, timeLeft, score, players, currentPlayerIndex]);
 
+  const handleNextMatch = () => {
+    if (matchesPlayed < totalMatches) {
+      if (currentPlayerIndex + 1 === players.length) {
+        setCurrentPlayerIndex(0);
+        setCurrentRound((prev) => prev + 1);
+      } else {
+        setCurrentPlayerIndex((prev) => prev + 1);
+      }
+      startMatch();
+    }
+  };
+
   useEffect(() => {
     if (matchesPlayed === totalMatches && totalMatches > 0) {
       setShowConfetti(true);
     }
   }, [matchesPlayed, totalMatches]);
 
-  const handlePass = () => {
-    if (processing || timeLeft <= 0) return;
-    setProcessing(true);
-    setAnimationClass(styles.flashOrange);
-    setTimeout(() => {
-      setGameWords((prevWords) => {
-        return prevWords.length <= 1 ? loadWords() : prevWords.slice(1);
-      });
-      setAnimationClass("");
-      setProcessing(false);
-    }, 500);
-  };
-
-  const handleCorrect = () => {
-    if (processing || timeLeft <= 0) return;
-    setProcessing(true);
-    setAnimationClass(styles.flashGreen);
-    setTimeout(() => {
-      setScore((prev) => prev + 1);
-      setGameWords((prevWords) => {
-        return prevWords.length <= 1 ? loadWords() : prevWords.slice(1);
-      });
-      setAnimationClass("");
-      setProcessing(false);
-    }, 500);
-  };
-
   return (
     <div className={styles.game}>
       {showConfetti && <Confetti />}
-      <h2 className={styles.title}>🎭 Jogo de Mímica 🎭</h2>
+      <h2 className={styles.title}><FaTheaterMasks /> Jogo de Mímica <FaTheaterMasks /></h2>
 
       {gameStarted && countdown > 0 && (
         <div className={styles.countdown}>{countdown}</div>
       )}
 
-      {gameStarted && countdown === 0 && timeLeft > 0 && gameWords.length > 0 && (
-        <div className={styles.gameContainer}>
-          <TeamRoundInfo
-            currentRound={currentRound}
-            rounds={rounds}
-            currentPlayer={players[currentPlayerIndex]}
-          />
-          <Timer
-            timeLeft={timeLeft}
-            blinking={timeLeft <= 15}
-            timerBarClass={timeLeft <= 15 ? styles.barBlinking : ""}
-          />
-          <WordCard currentWord={gameWords[0]} animationClass={animationClass} />
-          <div className={styles.buttonContainer}>
-            <GameControls
-              handlePass={handlePass}
-              handleCorrect={handleCorrect}
-              disabled={timeLeft <= 0}
-            />
+      {gameStarted &&
+        countdown === 0 &&
+        timeLeft > 0 &&
+        gameWords.length > 0 && (
+          <div className={styles.gameContainer}>
+            <div className={styles.roundInfo}>
+              <p>
+                Rodada {currentRound} de {rounds}
+              </p>
+              <p>Vez de: {players[currentPlayerIndex]}</p>
+            </div>
+            <div>
+              <Timer timeLeft={timeLeft} blinking={timeLeft <= 15} />
+              <WordCard
+                currentWord={currentWord}
+                animationClass={animationClass}
+                borderColor={difficulty.color}
+              />
+              <GameControls
+                handlePass={handlePass}
+                handleCorrect={handleCorrect}
+              />
+            </div>
           </div>
-        </div>
-      )}
+        )}
 
       {!gameStarted && timeLeft === 60 && matchesPlayed === 0 && (
         <div>
           <h3 className={styles.subtitle}>Desafie sua criatividade!</h3>
+          <p className={styles.description}>
+            Use as setas do teclado ou os botões para passar ou acertar a
+            palavra.
+          </p>
           <button className={styles.startButton} onClick={startMatch}>
             <FaPlay /> Iniciar
           </button>
@@ -149,10 +227,51 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
 
       {!gameStarted && timeLeft < 60 && (
         <div className={styles.endGame}>
-          <h3>Partida finalizada! Pontuação desta partida: {score}</h3>
-          <button className={styles.nextGameButton} onClick={() => startMatch()}>
-            <FaForward /> Próxima Partida
-          </button>
+          {matchesPlayed < totalMatches ? (
+            <div>
+              <h3>Parabéns, jogador acertou {score} ponto(s).</h3>
+              <p>Pronto para a próxima partida?</p>
+              <button
+                className={styles.nextGameButton}
+                onClick={handleNextMatch}
+              >
+                <FaForward /> Próxima Partida
+              </button>
+            </div>
+          ) : (
+            <div>
+              <h3>Parabéns, jogadores!</h3>
+              <p>Resultados:</p>
+              <ul className={styles.resultsList}>
+                {totalScoresList.map(({ player, score }) => (
+                  <li key={player} className={styles.resultsItems}>
+                    <span className={styles.playerName}>{player}</span>:{" "}
+                    <span className={styles.playerScore}>{score}</span> pontos
+                  </li>
+                ))}
+              </ul>
+
+              {isTie ? (
+                <h4 className={styles.winnerTitle}>Empate!</h4>
+              ) : (
+                <h4 className={styles.winnerTitle}>
+                  Vencedor: {winners[0].player}
+                </h4>
+              )}
+
+              <div className={styles.endGameButtons}>
+                <button className={styles.restartButton} onClick={resetGame}>
+                  Reiniciar
+                </button>
+                <button
+                  className={styles.homeButton}
+                  onClick={() => window.location.reload()}
+                >
+                  Voltar para Início
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       )}
     </div>
