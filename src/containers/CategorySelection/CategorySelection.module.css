@@ -5,6 +5,9 @@
   padding: 20px;
   box-sizing: border-box;
   animation: fadeIn 1s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titleContainer {
@@ -48,7 +51,6 @@
   justify-content: center;
   max-width: 800px;
   margin: 0 auto;
-  gap: 15px;
 }
 
 @keyframes fadeIn {
