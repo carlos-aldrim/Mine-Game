@@ -9738,5 +9738,2255 @@
     "word": "Spelunky 2",
     "category": "Jogos",
     "difficulty": "Difícil"
+  },
+  {
+    "word": "Comer",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Andar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Correr",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Falar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Dormir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ler",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Escrever",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ouvir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ver",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sentir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Amar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Beber",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Trabalhar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Estudar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Jogar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cantar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Dançar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cozinhar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Limpar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pintar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Desenhar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Construir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Destruir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Comprar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Vender",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pensar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Criar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Ensinar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Aprender",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Viajar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Visitar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Conversar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Abraçar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Beijar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Chorar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Rir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sorrir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Lutar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ganhar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Perder",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Celebrar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Improvisar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Investir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Salvar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Atirar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pescar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Caçar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Nadar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Saltar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Voar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Guiar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Dirigir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Pilotar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Pedalar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Escalar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cavar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Plantar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Colher",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Crescer",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Murchar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Flutuar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Afundar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Subir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Descer",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Empurrar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Puxar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Segurar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Largar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Carregar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Levantar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Empreender",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Mergulhar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sair",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Entrar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Fechar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Abrir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Atender",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ignorar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Vislumbrar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Recordar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Lembrar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Esquecer",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Decidir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Escolher",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Recusar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Aceitar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Aguardar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Esperar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Notar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Observar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Examinar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Analisar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Descobrir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Investigar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Resolver",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dúvidar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Confirmar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Questionar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Propor",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Negociar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Planejar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Organizar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Preparar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Imaginar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sonhar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Despertar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Acordar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Concentrar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Meditar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Inspirar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Expirar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Respirar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Gritar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Sussurrar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Murmurar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Aplaudir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Agradecer",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Desafiar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Competir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Colaborar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Cooperar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Desenvolver",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Inovar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Adaptar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Mudar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Alterar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Transformar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Expandir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Contrair",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Dividir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Multiplicar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Somar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Subtrair",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Comparar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Medir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Calcular",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Esboçar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Descrever",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Narrar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Contar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Relatar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Denunciar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Expor",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Declarar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Informar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Comunicar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Expressar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Interpretar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Traduzir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Duplicar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Reduzir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Simplificar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Complicar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Exagerar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Minimizar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Estimar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Pesquisar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Financiar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Conservar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Preservar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Desperdiçar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Economizar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Gastar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Poupar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Distribuir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Receber",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Doar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Emprestar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Trocar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Enviar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Mandar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Chegar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Partir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Voltar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Retornar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Repetir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Rever",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Imitar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Simular",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Representar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Encenar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Recitar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Citar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Memorizar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Treinar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Praticar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Executar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Operar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Atuar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Desempenhar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Administrar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Conduzir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Acompanhar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Substituir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Complementar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Incluir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Excluir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Selecionar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Optar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Combinar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Misturar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Separar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Julgar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Criticar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Aprovar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Discutir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Debater",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Argumentar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Conceder",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Negar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Permitir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Proibir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Limitar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Acelerar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Desacelerar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Parar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Continuar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Persistir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Insistir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Suceder",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Acontecer",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Evoluir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Decrescer",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Fortalecer",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Enfraquecer",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Sustentar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Suportar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Resistir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Conquistar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Alcançar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cumprir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Superar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Vencer",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Fracassar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Renascer",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Prosperar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Melhorar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Piorar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Reagir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Adicionar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Remover",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Integrar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Distinguir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Inquirir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Manifestar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Reformular",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Consolidar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Diversificar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Conectar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Desconectar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Acenar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Abrandar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Abastecer",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Acumular",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Admirar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Adorar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Agarrar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Agir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ajudar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Alistar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Acomodar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Apertar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Apostar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Apreciar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Arremessar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Arrastar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Assobiar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Atacar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Atordoar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Atrair",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Atravessar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Atualizar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Aumentar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Automatizar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Auxiliar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Avançar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Aventurar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Bailar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bater",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Bifurcar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Borrifar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Bombardear",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Brilhar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Burlar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Buscar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Calcar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Calibrar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Caminhar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Capacitar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Capturar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Carimbar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Causar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Chocar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Circular",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Clarificar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Clicar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Colorir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Combater",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Compartilhar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Comprometer",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Computar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Concretizar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Conferir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Confessar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Confiscar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Conformar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Conjugar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Consertar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Considerar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Consolar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Constatar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Consultar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Consumir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Contemplar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Contradizer",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Contrariar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Contribuir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Convencer",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Converter",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Coordenar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Corroborar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cortar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Costurar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Cultivar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Cumprimentar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Decifrar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Decorar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Deduzir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Defender",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Definir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Degustar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Deitar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Delegar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Delimitar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Demonstrar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Denominar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Depurar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Depositar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Desaparecer",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Desatar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Desembaraçar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Desempacotar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Desenrolar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Desencadear",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Desenterrar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Desfazer",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Desinchar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Desistir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Deslizar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Desocupar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Despejar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Desprender",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Destacar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Destinar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Destravar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Determinar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Deteriorar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dilatar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Diluir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Diminuir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Dirimir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Disfarçar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Dispersar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Disputar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Divagar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Divertir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Divorciar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Dominar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Dramatizar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Eclipsar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Editar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Efetuar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Elaborar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Elevar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Eliminar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Emagrecer",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Empalidecer",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Emparelhar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Empedrar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Empolgar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Emular",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Enaltecer",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Encaminhar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Encarregar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Encarar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Encerrar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Encher",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Encolher",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Encorajar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Endireitar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Enfrentar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Engajar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Engolir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Enjoar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Enriquecer",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Enrolar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Ensaboar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Entardecer",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Entediar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Enterrar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Entusiasmar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Entregar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Enturmar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Enumerar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Esvaziar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Exceder",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Exercer",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Exilar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Existir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Eximir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Exonerar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Extinguir",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Extrair",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Facilitar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Familiarizar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Fartar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Fazer",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Festejar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Filtrar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Fincar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Firmar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Fixar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Fluir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Focar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Forçar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Formar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Fortificar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Fritar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Fumar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Fustigar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Gerar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Germinar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Gravar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Guarnecer",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Harmonizar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Hesitar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Hidratar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Hipnotizar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Impactar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Impedir",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Implantar",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Importar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Impor",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Imprimir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Inaugurar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Incomodar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Ingerir",
+    "category": "Ações",
+    "difficulty": "Média"
+  },
+  {
+    "word": "Iniciar",
+    "category": "Ações",
+    "difficulty": "Difícil"
+  },
+  {
+    "word": "Injetar",
+    "category": "Ações",
+    "difficulty": "Fácil"
+  },
+  {
+    "word": "Inscrever",
+    "category": "Ações",
+    "difficulty": "Média"
   }
 ]

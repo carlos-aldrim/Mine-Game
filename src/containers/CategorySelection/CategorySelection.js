@@ -13,6 +13,7 @@ import {
   FaPlane,
   FaBook,
   FaGamepad,
+  FaBolt
 } from "react-icons/fa";
 
 const categories = [
@@ -25,6 +26,7 @@ const categories = [
   { name: "Viagens", icon: <FaPlane /> },
   { name: "Livros", icon: <FaBook /> },
   { name: "Jogos", icon: <FaGamepad /> },
+  { name: "Ações", icon: <FaBolt /> }
 ];
 
 const CategorySelection = ({ onSelect }) => {

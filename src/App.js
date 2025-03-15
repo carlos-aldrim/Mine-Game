@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FiArrowLeft, FiRefreshCcw } from "react-icons/fi";  // Importar os ícones
+import { FiArrowLeft, FiHome } from "react-icons/fi";
 import GameModeSelection from "./containers/GameModeSelection/GameModeSelection";
 import TeamSetup from "./containers/TeamSetup/TeamSetup";
 import DifficultySelection from "./containers/DifficultySelection/DifficultySelection";
@@ -50,7 +50,9 @@ function App() {
   if (isPortrait && window.innerWidth < 768) {
     return (
       <div className="rotate-message">
-        <p>Por favor, rotacione seu dispositivo para o modo paisagem para jogar.</p>
+        <p>
+          Por favor, rotacione seu dispositivo para o modo paisagem para jogar.
+        </p>
       </div>
     );
   }
@@ -58,41 +60,84 @@ function App() {
   return (
     <div>
       {step > 0 && (
+        <button className="reset-button" onClick={resetGame}>
+          <FiHome size={20} />
+        </button>
+      )}
+      {step > 0 && (
         <button className="back-button" onClick={prevStep}>
           <FiArrowLeft size={20} />
         </button>
       )}
-      {step > 0 && (
-        <button className="reset-button" onClick={resetGame}>
-          <FiRefreshCcw size={20} />
-        </button>
-      )}
 
-      {step === 0 && <GameModeSelection onSelect={(mode) => { setGameMode(mode); nextStep(); }} />}
+      {step === 0 && (
+        <GameModeSelection
+          onSelect={(mode) => {
+            setGameMode(mode);
+            nextStep();
+          }}
+        />
+      )}
 
       {step === 1 && gameMode === "solo" && (
-        <DifficultySelection onSelect={(difficulty) => { setDifficulty(difficulty); nextStep(); }} />
+        <DifficultySelection
+          onSelect={(difficulty) => {
+            setDifficulty(difficulty);
+            nextStep();
+          }}
+        />
       )}
       {step === 1 && gameMode === "team" && (
-        <TeamSetup onSetupComplete={(players, rounds) => { setPlayers(players); setRounds(rounds); nextStep(); }} />
+        <TeamSetup
+          onSetupComplete={(players, rounds) => {
+            setPlayers(players);
+            setRounds(rounds);
+            nextStep();
+          }}
+        />
       )}
 
       {step === 2 && gameMode === "solo" && (
-        <CategorySelection onSelect={(categories) => { setSelectedCategories(categories); nextStep(); }} />
+        <CategorySelection
+          onSelect={(categories) => {
+            setSelectedCategories(categories);
+            nextStep();
+          }}
+        />
       )}
       {step === 2 && gameMode === "team" && (
-        <DifficultySelection onSelect={(difficulty) => { setDifficulty(difficulty); nextStep(); }} />
+        <DifficultySelection
+          onSelect={(difficulty) => {
+            setDifficulty(difficulty);
+            nextStep();
+          }}
+        />
       )}
 
       {step === 3 && gameMode === "solo" && (
-        <Game difficulty={difficulty} categories={selectedCategories} words={words} />
+        <Game
+          difficulty={difficulty}
+          categories={selectedCategories}
+          words={words}
+        />
       )}
       {step === 3 && gameMode === "team" && (
-        <CategorySelection onSelect={(categories) => { setSelectedCategories(categories); nextStep(); }} />
+        <CategorySelection
+          onSelect={(categories) => {
+            setSelectedCategories(categories);
+            nextStep();
+          }}
+        />
       )}
 
       {step === 4 && gameMode === "team" && (
-        <TeamGame difficulty={difficulty} categories={selectedCategories} words={words} players={players} rounds={rounds} />
+        <TeamGame
+          difficulty={difficulty}
+          categories={selectedCategories}
+          words={words}
+          players={players}
+          rounds={rounds}
+        />
       )}
     </div>
   );
