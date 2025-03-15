@@ -17,10 +17,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #1e3c72;
+  overflow-x: hidden;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #1e3c72, #2a5298, #3f5efb);
   color: white;
   font-size: 1.5rem;
   text-align: center;
-  padding: 20px;
 }

@@ -1,12 +1,13 @@
 .game {
-  text-align: center;
-  width: 100%;
-  max-width: 800px;
-  padding: 20px;
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.7);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
   animation: fadeIn 0.7s ease-out;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  animation: fadeIn 1s ease-out;
 }
 
 .title {
@@ -29,6 +30,7 @@
 
 .description {
   font-size: 1rem;
+  max-width: 500px; 
   margin-bottom: 20px;
   animation: fadeIn 1.2s ease-in;
   opacity: 0.8;

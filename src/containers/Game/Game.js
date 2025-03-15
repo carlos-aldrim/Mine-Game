@@ -56,7 +56,7 @@ function Game({ difficulty, categories, words }) {
         timeLeft <= 0
       )
         return;
-  
+
       const { beta } = event.rotationRate;
       if (beta > 180) {
         motionCooldownRef.current = true;
@@ -72,7 +72,7 @@ function Game({ difficulty, categories, words }) {
         }, 1000);
       }
     };
-  
+
     if (window.DeviceMotionEvent) {
       window.addEventListener("devicemotion", handleMotion);
     }
@@ -162,8 +162,9 @@ function Game({ difficulty, categories, words }) {
         <div>
           <h3 className={styles.subtitle}>Desafie sua criatividade!</h3>
           <p className={styles.description}>
-            Use as setas do teclado ou os botões para passar ou acertar a
-            palavra.
+            Use as setas do teclado, os botões ou movimente a tela para passar
+            ou acertar a palavra. Se estiver usando um smartphone, posicione o dispositivo na
+            testa para jogar.
           </p>
           <button className={styles.startButton} onClick={startGame}>
             <FaPlay /> Iniciar
