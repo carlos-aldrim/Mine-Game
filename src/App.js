@@ -7,6 +7,7 @@ import CategorySelection from "./containers/CategorySelection/CategorySelection"
 import Game from "./containers/Game/Game";
 import TeamGame from "./containers/TeamGame/TeamGame";
 import "./global.css";
+import BackgroundAnimation from "./components/BackgroundAnimation/BackgroundAnimation";
 
 function App() {
   const [gameMode, setGameMode] = useState(null);
@@ -59,6 +60,7 @@ function App() {
 
   return (
     <div>
+      <BackgroundAnimation/>
       {step > 0 && (
         <button className="reset-button" onClick={resetGame}>
           <FiHome size={20} />
