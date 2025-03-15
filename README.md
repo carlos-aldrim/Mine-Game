@@ -1,5 +1,8 @@
 # Jogo da Mímica
 
+## Link/Jogo
+`mine-game-seven.vercel.app`
+
 ## Sobre o Projeto
 O **Jogo da Mímica** é um jogo interativo que pode ser jogado individualmente ou em equipe. O objetivo é adivinhar palavras através de gestos, sem falar ou fazer sons. O jogo oferece diversas categorias, diferentes dificuldades e uma experiência imersiva tanto no navegador (Web) quanto em dispositivos móveis (Mobile).
 
