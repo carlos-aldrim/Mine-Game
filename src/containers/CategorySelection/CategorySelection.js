@@ -1,8 +1,18 @@
 import React, { useState } from "react";
 import CategoryButton from "../../components/CategoryButton/CategoryButton";
 import ContinueButton from "../../components/ContinueButton/ContinueButton";
-import "./CategorySelection.css";
-import { FaPaw, FaFilm, FaFutbol, FaBox, FaMusic, FaUtensils, FaPlane, FaBook, FaGamepad } from "react-icons/fa";
+import styles from "./CategorySelection.module.css";
+import {
+  FaPaw,
+  FaFilm,
+  FaFutbol,
+  FaBox,
+  FaMusic,
+  FaUtensils,
+  FaPlane,
+  FaBook,
+  FaGamepad,
+} from "react-icons/fa";
 
 const categories = [
   { name: "Animais", icon: <FaPaw /> },
@@ -35,11 +45,15 @@ const CategorySelection = ({ onSelect }) => {
   };
 
   return (
-    <div className="category-selection">
-      <h1 className="title">🎭 Escolha suas Categorias 🎭</h1>
-      {showInstructions && <h3 className="subtitle">Selecione pelo menos 3 para continuar</h3>}
-      
-      <div className="category-buttons">
+    <div className={styles.categorySelection}>
+      <h1 className={styles.title}>🎭 Escolha suas Categorias 🎭</h1>
+      {showInstructions && (
+        <h3 className={styles.subtitle}>
+          Selecione pelo menos 3 para continuar
+        </h3>
+      )}
+
+      <div className={styles.categoryButtons}>
         {categories.map((category) => (
           <CategoryButton
             key={category.name}
@@ -49,7 +63,7 @@ const CategorySelection = ({ onSelect }) => {
           />
         ))}
       </div>
-      
+
       <ContinueButton onClick={handleSubmit} />
     </div>
   );

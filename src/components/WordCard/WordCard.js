@@ -1,12 +1,12 @@
 import React from "react";
-import "./WordCard.css";
+import styles from "./WordCard.module.css";
 
 function WordCard({ currentWord, animationClass, borderColor }) {
   return (
-    <div className={`word-card ${animationClass}`} style={{ borderColor }}>
+    <div className={`${styles.wordCard} ${animationClass}`} style={{ borderColor }}>
       <h1>{currentWord.word}</h1>
       {currentWord.categoryIcon && (
-        <span className="category-icon">{currentWord.categoryIcon}</span>
+        <span className={styles.categoryIcon}>{currentWord.categoryIcon}</span>
       )}
     </div>
   );

@@ -1,18 +1,18 @@
-import React from "react";
-import { FaForward, FaCheck } from "react-icons/fa";
-import "./GameControls.css";
+import React from 'react';
+import { FaCheckCircle, FaTimesCircle } from 'react-icons/fa';
+import styles from './GameControls.module.css';
 
-function GameControls({ handlePass, handleCorrect, disabled }) {
+const GameControls = ({ onPass, onCorrect }) => {
   return (
-    <div className="button-container">
-      <button className="pass-button" onClick={handlePass} disabled={disabled}>
-        <FaForward /> Passar
+    <div className={styles.buttonContainer}>
+      <button className={styles.passButton} onClick={onPass}>
+        <FaTimesCircle /> Passar
       </button>
-      <button className="correct-button" onClick={handleCorrect} disabled={disabled}>
-        <FaCheck /> Acertar
+      <button className={styles.correctButton} onClick={onCorrect}>
+        <FaCheckCircle /> Correto
       </button>
     </div>
   );
-}
+};
 
 export default GameControls;

@@ -1,9 +1,9 @@
 import React from "react";
-import "./SelectGroup.css";
+import styles from "./SelectGroup.module.css";
 
 function SelectGroup({ numPlayers, numRounds, onPlayersChange, onRoundsChange }) {
   return (
-    <div className="select-group">
+    <div className={styles.selectGroup}>
       <div>
         <label>Nº de Equipe:</label>
         <select

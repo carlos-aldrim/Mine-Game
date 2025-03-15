@@ -1,5 +1,5 @@
 import React from "react";
-import "./DifficultySelection.css";
+import styles from "./DifficultySelection.module.css";
 import DifficultyCard from "../../components/DifficultyCard/DifficultyCard";
 
 const difficulties = [
@@ -9,10 +9,12 @@ const difficulties = [
 ];
 
 const DifficultySelection = ({ onSelect }) => (
-  <div className="difficulty-container">
-    <h1 className="title">🌟 Escolha a Dificuldade 🌟</h1>
-    <h3 className="subtitle">Selecione um nível para começar o desafio</h3>
-    <div className="cards-container">
+  <div className={styles.difficultyContainer}>
+    <h1 className={styles.title}>🌟 Escolha a Dificuldade 🌟</h1>
+    <h3 className={styles.subtitle}>
+      Selecione um nível para começar o desafio
+    </h3>
+    <div className={styles.cardsContainer}>
       {difficulties.map((difficulty) => (
         <DifficultyCard
           key={difficulty.level}

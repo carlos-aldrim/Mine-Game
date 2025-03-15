@@ -1,12 +1,12 @@
 import React from "react";
-import "./CategoryButton.css";
+import styles from "./CategoryButton.module.css";
 
 const CategoryButton = ({ category, isSelected, onClick }) => (
   <button
-    className={`category-button ${isSelected ? "selected" : ""}`}
+    className={`${styles.categoryButton} ${isSelected ? styles.selected : ""}`}
     onClick={() => onClick(category.name)}
   >
-    <span className="icon">{category.icon}</span>
+    <span className={styles.icon}>{category.icon}</span>
     {category.name}
   </button>
 );

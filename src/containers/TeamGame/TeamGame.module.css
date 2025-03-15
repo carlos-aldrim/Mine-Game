@@ -1,0 +1,83 @@
+.teamGameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.7s ease-out;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.countdown {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffcc00;
+  margin: 20px 0;
+}
+
+.gameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.startButton, .nextGameButton, .restartButton, .homeButton {
+  background-color: #ffcc00;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.startButton:hover, .nextGameButton:hover, .restartButton:hover, .homeButton:hover {
+  transform: scale(1.1);
+}
+
+.flash-orange {
+  animation: flashOrange 0.5s;
+}
+
+.flash-green {
+  animation: flashGreen 0.5s;
+}
+
+@keyframes flashOrange {
+  0% { background-color: #ff9800; }
+  100% { background-color: transparent; }
+}
+
+@keyframes flashGreen {
+  0% { background-color: #4caf50; }
+  100% { background-color: transparent; }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  .startButton, .nextGameButton, .restartButton, .homeButton {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}

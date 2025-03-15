@@ -1,4 +1,4 @@
-.setup-container {
+.setupContainer {
   padding: 0px 20px;
   border-radius: 15px;
   max-width: 800px;
@@ -21,7 +21,7 @@
   opacity: 0.8;
 }
 
-.next-button {
+.nextButton {
   position: relative;
   overflow: hidden;
   background: linear-gradient(45deg, #32cd32, #28a745);
@@ -39,7 +39,7 @@
   margin: 0 auto;
 }
 
-.next-button::after {
+.nextButton::after {
   content: "";
   position: absolute;
   top: 0;
@@ -51,7 +51,7 @@
   transition: all 0.5s ease;
 }
 
-.next-button:hover::after {
+.nextButton:hover::after {
   left: 200%;
 }
 

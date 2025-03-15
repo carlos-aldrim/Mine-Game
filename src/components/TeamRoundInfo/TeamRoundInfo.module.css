@@ -1,0 +1,9 @@
+.roundInfo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.roundInfo p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}

@@ -1,14 +1,14 @@
-.end-game {
+.endGame {
   animation: fadeIn 0.7s ease-out;
   text-align: center;
 }
 
-.end-game h3 {
+.endGame h3 {
   font-size: 2rem;
   margin-bottom: 10px;
 }
 
-.end-game-buttons {
+.endGameButtons {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -16,8 +16,8 @@
   margin-top: 20px;
 }
 
-.restart-button,
-.home-button {
+.restartButton,
+.homeButton {
   position: relative;
   overflow: hidden;
   background-color: #ffd700;
@@ -34,16 +34,16 @@
   margin: 10px;
 }
 
-.restart-button {
+.restartButton {
   background-color: #32cd32;
 }
 
-.home-button {
+.homeButton {
   background-color: #ff4500;
 }
 
-.restart-button::after,
-.home-button::after {
+.restartButton::after,
+.homeButton::after {
   content: "";
   position: absolute;
   top: 0;
@@ -55,13 +55,13 @@
   transition: all 0.5s ease;
 }
 
-.restart-button:hover::after,
-.home-button:hover::after {
+.restartButton:hover::after,
+.homeButton:hover::after {
   left: 200%;
 }
 
-.restart-button:hover,
-.home-button:hover {
+.restartButton:hover,
+.homeButton:hover {
   transform: scale(1.05);
   box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.4);
 }

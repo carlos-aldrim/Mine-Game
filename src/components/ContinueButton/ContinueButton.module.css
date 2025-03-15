@@ -1,4 +1,4 @@
-.continue-button {
+.continueButton {
   position: relative;
   overflow: hidden;
   margin-top: 30px;
@@ -13,12 +13,12 @@
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.continue-button:hover {
+.continueButton:hover {
   transform: scale(1.1);
   box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.5);
 }
 
-.continue-button::after {
+.continueButton::after {
   content: "";
   position: absolute;
   top: 0;
@@ -30,19 +30,19 @@
   transition: all 0.5s ease;
 }
 
-.continue-button:hover::after {
+.continueButton:hover::after {
   left: 200%;
 }
 
 @media (max-width: 768px) {
-  .continue-button {
+  .continueButton {
     font-size: 1.2rem;
     padding: 10px 20px;
   }
 }
 
 @media (max-width: 480px) {
-  .continue-button {
+  .continueButton {
     font-size: 1.1rem;
     padding: 8px 15px;
   }

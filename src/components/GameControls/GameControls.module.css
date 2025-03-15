@@ -1,4 +1,4 @@
-.button-container {
+.buttonContainer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -6,8 +6,8 @@
   margin-top: 20px;
 }
 
-.pass-button,
-.correct-button {
+.passButton,
+.correctButton {
   position: relative;
   overflow: hidden;
   background-color: #ffd700;
@@ -24,16 +24,16 @@
   margin: 10px;
 }
 
-.pass-button {
+.passButton {
   background-color: #ffa500;
 }
 
-.correct-button {
+.correctButton {
   background-color: #32cd32;
 }
 
-.pass-button::after,
-.correct-button::after {
+.passButton::after,
+.correctButton::after {
   content: "";
   position: absolute;
   top: 0;
@@ -45,13 +45,13 @@
   transition: all 0.5s ease;
 }
 
-.pass-button:hover::after,
-.correct-button:hover::after {
+.passButton:hover::after,
+.correctButton:hover::after {
   left: 200%;
 }
 
-.pass-button:hover,
-.correct-button:hover {
+.passButton:hover,
+.correctButton:hover {
   transform: scale(1.05);
   box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.4);
 }

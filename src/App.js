@@ -16,6 +16,10 @@ function App() {
   const [players, setPlayers] = useState([]);
   const [rounds, setRounds] = useState(0);
 
+  const [isPortrait, setIsPortrait] = useState(
+    window.innerWidth < window.innerHeight
+  );
+
   useEffect(() => {
     fetch("/words.json")
       .then((response) => response.json())
@@ -24,6 +28,23 @@ function App() {
   }, []);
 
   const nextStep = () => setStep((prev) => prev + 1);
+
+  useEffect(() => {
+    const handleResize = () =>
+      setIsPortrait(window.innerWidth < window.innerHeight);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  if (isPortrait && window.innerWidth < 768) {
+    return (
+      <div className="rotate-message">
+        <p>
+          Por favor, rotacione seu dispositivo para o modo paisagem para jogar.
+        </p>
+      </div>
+    );
+  }
 
   const handleModeSelect = (mode) => {
     setGameMode(mode);

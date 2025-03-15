@@ -1,21 +1,37 @@
-import React from "react";
-import "./PlayersInputs.css";
+import React, { useState } from 'react';
+import styles from './PlayersInputs.module.css';
 
-function PlayersInputs({ players, onPlayerChange }) {
+const PlayersInputs = ({ onSubmit }) => {
+  const [player1, setPlayer1] = useState('');
+  const [player2, setPlayer2] = useState('');
+
+  const handleSubmit = () => {
+    onSubmit({ player1, player2 });
+  };
+
   return (
-    <div className="players-inputs">
-      {players.map((player, index) => (
+    <div className={styles.playersInputs}>
+      <div className={styles.inputContainer}>
+        <label className={styles.inputLabel}>Jogador 1</label>
         <input
-          key={index}
+          className={styles.inputField}
           type="text"
-          placeholder={`Nome da Equipe ${index + 1}`}
-          value={player}
-          onChange={(e) => onPlayerChange(index, e.target.value)}
-          maxLength={25}
+          value={player1}
+          onChange={(e) => setPlayer1(e.target.value)}
         />
-      ))}
+      </div>
+      <div className={styles.inputContainer}>
+        <label className={styles.inputLabel}>Jogador 2</label>
+        <input
+          className={styles.inputField}
+          type="text"
+          value={player2}
+          onChange={(e) => setPlayer2(e.target.value)}
+        />
+      </div>
+      <button onClick={handleSubmit}>Começar Jogo</button>
     </div>
   );
-}
+};
 
 export default PlayersInputs;

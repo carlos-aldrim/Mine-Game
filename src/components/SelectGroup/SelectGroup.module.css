@@ -1,0 +1,27 @@
+.selectGroup {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.selectGroup label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.selectGroup select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid #ffa500;
+  background-color: #ffa500;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}

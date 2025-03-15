@@ -1,10 +1,10 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import "./ContinueButton.css";
+import styles from "./ContinueButton.module.css";
 
 const ContinueButton = ({ onClick }) => (
-  <button className="continue-button" onClick={onClick}>
-    Continuar <FaArrowRight className="icon" />
+  <button className={styles.continueButton} onClick={onClick}>
+    Continuar <FaArrowRight className={styles.icon} />
   </button>
 );
 

@@ -1,9 +1,9 @@
 import React from "react";
-import "./DifficultyCard.css";
+import styles from "./DifficultyCard.module.css";
 
 const DifficultyCard = ({ level, color, description, onSelect }) => (
   <div
-    className="difficulty-card"
+    className={styles.difficultyCard}
     style={{ backgroundColor: color }}
     onClick={() => onSelect(level)}
   >

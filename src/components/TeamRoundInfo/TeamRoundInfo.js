@@ -1,9 +1,9 @@
 import React from "react";
-import "./TeamRoundInfo.css";
+import styles from "./TeamRoundInfo.module.css";
 
 function TeamRoundInfo({ currentRound, rounds, currentPlayer }) {
   return (
-    <div className="round-info">
+    <div className={styles.roundInfo}>
       <p>
         Rodada {currentRound} de {rounds}
       </p>

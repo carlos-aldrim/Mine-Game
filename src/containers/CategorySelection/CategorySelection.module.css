@@ -1,4 +1,4 @@
-.category-selection {
+.categorySelection {
   text-align: center;
   width: 100%;
   max-width: 900px;
@@ -20,7 +20,7 @@
   opacity: 0.8;
 }
 
-.category-buttons {
+.categoryButtons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
@@ -30,25 +30,25 @@
 }
 
 @media (max-width: 768px) {
-  .category-buttons {
+  .categoryButtons {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
-  
+
   .title {
     font-size: clamp(1.5rem, 7vw, 2.8rem);
   }
-  
+
   .subtitle {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 480px) {
-  .category-buttons {
+  .categoryButtons {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 8px;
   }
-  
+
   .title {
     font-size: clamp(1.5rem, 8vw, 2.3rem);
   }

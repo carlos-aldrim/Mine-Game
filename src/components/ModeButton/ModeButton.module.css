@@ -1,0 +1,60 @@
+.modeButton {
+  background-color: #f9a825;
+  color: #fff;
+  border: none;
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+.modeButton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: skewX(-45deg);
+  transition: all 0.5s ease;
+}
+
+.modeButton:hover::after {
+  left: 200%;
+}
+
+.modeButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+.modeButton.solo {
+  background-color: #FF7500;
+}
+
+.modeButton.team {
+  background-color: #FF4500;
+}
+
+.icon {
+  font-size: 1.4rem;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

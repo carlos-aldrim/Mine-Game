@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./TeamSetup.css";
+import styles from "./TeamSetup.module.css";  // Importação do módulo CSS
 import { FaForward } from "react-icons/fa";
 import SelectGroup from "../../components/SelectGroup/SelectGroup";
 import PlayersInputs from "../../components/PlayersInputs/PlayersInputs";
@@ -34,9 +34,9 @@ function TeamSetup({ onSetupComplete }) {
   };
 
   return (
-    <div className="setup-container">
-      <h1 className="title">👥 Configuração da Equipe 👥</h1>
-      <h3 className="subtitle">Configure seu jogo e prepare-se para o desafio!</h3>
+    <div className={styles.setupContainer}>
+      <h1 className={styles.title}>👥 Configuração da Equipe 👥</h1>
+      <h3 className={styles.subtitle}>Configure seu jogo e prepare-se para o desafio!</h3>
       
       <SelectGroup
         numPlayers={numPlayers}
@@ -47,7 +47,7 @@ function TeamSetup({ onSetupComplete }) {
       
       <PlayersInputs players={players} onPlayerChange={handlePlayerChange} />
 
-      <button className="next-button" onClick={handleNext}>
+      <button className={styles.nextButton} onClick={handleNext}>
         <FaForward /> Próximo
       </button>
     </div>
