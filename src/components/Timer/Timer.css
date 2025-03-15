@@ -1,0 +1,47 @@
+.timer-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timer-bar {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: width 1s linear;
+}
+
+.barBlinking {
+  animation: barBlinkingAnimation 1s infinite;
+}
+
+@keyframes barBlinkingAnimation {
+  0%, 100% {
+    background-color: #fff;
+  }
+  50% {
+    background-color: #ffd700;
+  }
+}
+
+.timer {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.blinking {
+  animation: blinkingAnimation 1s infinite;
+}
+
+@keyframes blinkingAnimation {
+  0%, 100% {
+    color: #fff;
+  }
+  50% {
+    color: #ffd700;
+  }
+}

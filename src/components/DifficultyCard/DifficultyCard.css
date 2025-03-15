@@ -1,46 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
-
-body {
-  font-family: "Poppins", sans-serif;
-  background: linear-gradient(120deg, #1e3c72, #2a5298, #3f5efb);
-  color: white;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.difficulty-container {
-  text-align: center;
-  width: 100%;
-  padding: 0 20px;
-  box-sizing: border-box;
-  animation: fadeIn 1s ease-out;
-}
-
-.title {
-  font-size: 2.5rem;
-  font-weight: 600;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-}
-
-.subtitle {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  opacity: 0.8;
-}
-
-.cards-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-}
-
 .difficulty-card {
   position: relative;
   overflow: hidden;
@@ -89,69 +46,28 @@ body {
 }
 
 @media (max-width: 768px) {
-  .title {
-    font-size: 2rem;
-  }
-
-  .subtitle {
-    font-size: 1rem;
-  }
-
   .difficulty-card {
     width: 150px;
     height: 180px;
   }
-
-  .cards-container {
-    gap: 15px;
-  }
 }
 
 @media (max-width: 480px) {
-  .title {
-    font-size: 1.6rem;
-  }
-
-  .subtitle {
-    font-size: 0.9rem;
-  }
-
   .difficulty-card {
     width: 120px;
     height: 150px;
   }
-
   .difficulty-card p {
     font-size: 0.8rem;
   }
 }
 
 @media (width: 360px) {
-  .title {
-    font-size: 1.4em;
-  }
-
-  .subtitle {
-    font-size: 1rem;
-  }
-
   .difficulty-card {
     width: 100px;
     height: 130px;
   }
-
   .difficulty-card p {
     font-size: 0.8rem;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
   }
 }

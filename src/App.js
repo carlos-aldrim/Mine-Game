@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
-import GameModeSelection from "./components/GameModeSelection/GameModeSelection";
-import TeamSetup from "./components/TeamSetup/TeamSetup";
-import DifficultySelection from "./components/DifficultySelection/DifficultySelection";
-import CategorySelection from "./components/CategorySelection/CategorySelection";
-import Game from "./components/Game/Game";
-import TeamGame from "./components/TeamGame/TeamGame";
+import GameModeSelection from "./containers/GameModeSelection/GameModeSelection";
+import TeamSetup from "./containers/TeamSetup/TeamSetup";
+import DifficultySelection from "./containers/DifficultySelection/DifficultySelection";
+import CategorySelection from "./containers/CategorySelection/CategorySelection";
+import Game from "./containers/Game/Game";
+import TeamGame from "./containers/TeamGame/TeamGame";
+import "./global.css";
 
 function App() {
   const [gameMode, setGameMode] = useState(null);
@@ -57,16 +58,12 @@ function App() {
         <TeamSetup onSetupComplete={handleTeamSetup} />
       )}
 
-      {step === 2 && gameMode === "team" && (
-        <DifficultySelection onSelect={handleDifficultySelect} />
-      )}
-
       {step === 2 && gameMode === "solo" && (
         <CategorySelection onSelect={handleCategorySelect} />
       )}
 
-      {step === 3 && gameMode === "team" && (
-        <CategorySelection onSelect={handleCategorySelect} />
+      {step === 2 && gameMode === "team" && (
+        <DifficultySelection onSelect={handleDifficultySelect} />
       )}
 
       {step === 3 && gameMode === "solo" && (
@@ -75,6 +72,10 @@ function App() {
           categories={selectedCategories}
           words={words}
         />
+      )}
+
+      {step === 3 && gameMode === "team" && (
+        <CategorySelection onSelect={handleCategorySelect} />
       )}
 
       {step === 4 && gameMode === "team" && (

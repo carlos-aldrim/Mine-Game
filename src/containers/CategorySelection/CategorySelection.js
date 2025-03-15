@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import { FaPaw, FaFilm, FaFutbol, FaBox, FaMusic, FaUtensils, FaPlane, FaBook, FaGamepad, FaArrowRight } from "react-icons/fa";
+import CategoryButton from "../../components/CategoryButton/CategoryButton";
+import ContinueButton from "../../components/ContinueButton/ContinueButton";
 import "./CategorySelection.css";
+import { FaPaw, FaFilm, FaFutbol, FaBox, FaMusic, FaUtensils, FaPlane, FaBook, FaGamepad } from "react-icons/fa";
 
 const categories = [
   { name: "Animais", icon: <FaPaw /> },
@@ -14,16 +16,14 @@ const categories = [
   { name: "Jogos", icon: <FaGamepad /> },
 ];
 
-function CategorySelection({ onSelect }) {
+const CategorySelection = ({ onSelect }) => {
   const [selected, setSelected] = useState([]);
-  const [showInstructions] = useState(true);
+  const showInstructions = true;
 
-  const toggleCategory = (category) => {
-    if (selected.includes(category)) {
-      setSelected(selected.filter((c) => c !== category));
-    } else {
-      setSelected([...selected, category]);
-    }
+  const toggleCategory = (name) => {
+    setSelected((prev) =>
+      prev.includes(name) ? prev.filter((c) => c !== name) : [...prev, name]
+    );
   };
 
   const handleSubmit = () => {
@@ -38,25 +38,21 @@ function CategorySelection({ onSelect }) {
     <div className="category-selection">
       <h1 className="title">🎭 Escolha suas Categorias 🎭</h1>
       {showInstructions && <h3 className="subtitle">Selecione pelo menos 3 para continuar</h3>}
-
+      
       <div className="category-buttons">
         {categories.map((category) => (
-          <button
+          <CategoryButton
             key={category.name}
-            className={`category-button ${selected.includes(category.name) ? "selected" : ""}`}
-            onClick={() => toggleCategory(category.name)}
-          >
-            <span className="icon">{category.icon}</span>
-            {category.name}
-          </button>
+            category={category}
+            isSelected={selected.includes(category.name)}
+            onClick={toggleCategory}
+          />
         ))}
       </div>
-
-      <button className="continue-button" onClick={handleSubmit}>
-        Continuar <FaArrowRight className="icon" />
-      </button>
+      
+      <ContinueButton onClick={handleSubmit} />
     </div>
   );
-}
+};
 
 export default CategorySelection;

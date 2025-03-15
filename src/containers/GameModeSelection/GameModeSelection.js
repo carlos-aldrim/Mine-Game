@@ -1,5 +1,6 @@
 import React from "react";
 import { FaUser, FaUsers } from "react-icons/fa";
+import ModeButton from "../../components/ModeButton/ModeButton";
 import "./GameModeSelection.css";
 
 function GameModeSelection({ onSelect }) {
@@ -10,14 +11,18 @@ function GameModeSelection({ onSelect }) {
         Selecione o modo de jogar para iniciar a diversão!
       </h3>
       <div className="buttons-container">
-        <button className="mode-button solo" onClick={() => onSelect("solo")}>
-          <FaUser className="icon" />
-          Jogar Sozinho
-        </button>
-        <button className="mode-button team" onClick={() => onSelect("team")}>
-          <FaUsers className="icon" />
-          Jogar em Equipe
-        </button>
+        <ModeButton
+          mode="solo"
+          icon={FaUser}
+          label="Jogar Sozinho"
+          onClick={() => onSelect("solo")}
+        />
+        <ModeButton
+          mode="team"
+          icon={FaUsers}
+          label="Jogar em Equipe"
+          onClick={() => onSelect("team")}
+        />
       </div>
     </div>
   );

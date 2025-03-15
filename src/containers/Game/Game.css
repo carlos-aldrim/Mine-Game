@@ -1,0 +1,157 @@
+.game {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.7s ease-out;
+}
+
+.rotate-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e3c72;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  animation: fadeIn 1s ease-in;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  animation: fadeIn 1.2s ease-in;
+}
+
+.start-button {
+  position: relative;
+  overflow: hidden;
+  background-color: #ffd700;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px;
+}
+
+.start-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: skewX(-45deg);
+  transition: all 0.5s ease;
+}
+
+.start-button:hover::after {
+  left: 200%;
+}
+
+.start-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.4);
+}
+
+.countdown {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #ffd700;
+  animation: countdownAnimation 1s ease-out infinite;
+}
+
+@keyframes countdownAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.word-card:hover {
+  transform: scale(1.10);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.game-container {
+  animation: slideIn 0.5s ease-out;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  .start-button {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.6rem;
+  }
+  .subtitle {
+    font-size: 1.3rem;
+  }
+  .start-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+  .countdown {
+    font-size: 2.5rem;
+  }
+}
