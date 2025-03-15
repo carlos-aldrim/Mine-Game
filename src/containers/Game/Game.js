@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import Confetti from "react-confetti";
 import { FaPlay, FaTheaterMasks, FaTrophy, FaSadTear } from "react-icons/fa";
 import styles from "./Game.module.css";
@@ -23,6 +23,29 @@ function Game({ difficulty, categories, words }) {
       word.difficulty === difficulty && categories.includes(word.category)
   );
 
+  const handlePass = useCallback(() => {
+    if (processing) return;
+    setProcessing(true);
+    setAnimationClass("orange");
+    setTimeout(() => {
+      setGameWords((prev) => prev.slice(1));
+      setAnimationClass("");
+      setProcessing(false);
+    }, 500);
+  }, [processing]);
+
+  const handleCorrect = useCallback(() => {
+    if (processing) return;
+    setProcessing(true);
+    setAnimationClass("green");
+    setTimeout(() => {
+      setScore((prev) => prev + 1);
+      setGameWords((prev) => prev.slice(1));
+      setAnimationClass("");
+      setProcessing(false);
+    }, 500);
+  }, [processing]);
+
   useEffect(() => {
     const handleMotion = (event) => {
       if (
@@ -33,7 +56,7 @@ function Game({ difficulty, categories, words }) {
         timeLeft <= 0
       )
         return;
-
+  
       const { beta } = event.rotationRate;
       if (beta > 150) {
         motionCooldownRef.current = true;
@@ -49,14 +72,14 @@ function Game({ difficulty, categories, words }) {
         }, 1000);
       }
     };
-
+  
     if (window.DeviceMotionEvent) {
       window.addEventListener("devicemotion", handleMotion);
     }
     return () => {
       window.removeEventListener("devicemotion", handleMotion);
     };
-  }, [gameStarted, countdown, timeLeft, gameWords]);
+  }, [gameStarted, countdown, timeLeft, gameWords, handleCorrect, handlePass]);
 
   const startGame = () => {
     if (filteredWords.length === 0) {
@@ -95,29 +118,6 @@ function Game({ difficulty, categories, words }) {
       }
     }
   }, [timeLeft, score]);
-
-  const handlePass = () => {
-    if (processing) return;
-    setProcessing(true);
-    setAnimationClass("orange");
-    setTimeout(() => {
-      setGameWords((prev) => prev.slice(1));
-      setAnimationClass("");
-      setProcessing(false);
-    }, 500);
-  };
-
-  const handleCorrect = () => {
-    if (processing) return;
-    setProcessing(true);
-    setAnimationClass("green");
-    setTimeout(() => {
-      setScore((prev) => prev + 1);
-      setGameWords((prev) => prev.slice(1));
-      setAnimationClass("");
-      setProcessing(false);
-    }, 500);
-  };
 
   const currentWord = gameWords.length > 0 ? gameWords[0] : null;
 

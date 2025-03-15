@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import Confetti from "react-confetti";
 import { FaForward, FaPlay, FaTheaterMasks } from "react-icons/fa";
 import styles from "./TeamGame.module.css";
@@ -30,41 +30,13 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
       word.difficulty === difficulty && categories.includes(word.category)
   );
 
-  useEffect(() => {
-    const handleMotion = (event) => {
-      if (!event.rotationRate || motionCooldownRef.current || !gameStarted || countdown !== 0 || timeLeft <= 0) return;
-
-      const { beta } = event.rotationRate;
-      if (beta > 40) {
-        motionCooldownRef.current = true;
-        handleCorrect();
-        setTimeout(() => {
-          motionCooldownRef.current = false;
-        }, 1000);
-      } else if (beta < -40) {
-        motionCooldownRef.current = true;
-        handlePass();
-        setTimeout(() => {
-          motionCooldownRef.current = false;
-        }, 1000);
-      }
-    };
-
-    if (window.DeviceMotionEvent) {
-      window.addEventListener("devicemotion", handleMotion);
-    }
-    return () => {
-      window.removeEventListener("devicemotion", handleMotion);
-    };
-  }, [gameStarted, countdown, timeLeft, gameWords]);
-
-  const loadWords = () => {
+  const loadWords = useCallback(() => {
     if (filteredWords.length === 0) {
       alert("Nenhuma palavra disponível para este filtro!");
       return [];
     }
     return [...filteredWords].sort(() => Math.random() - 0.5);
-  };
+  }, [filteredWords]);
 
   const totalScoresList = Object.entries(totalScores).map(
     ([player, score]) => ({
@@ -100,7 +72,7 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
     setTotalScores({});
   };
 
-  const handlePass = () => {
+  const handlePass = useCallback(() => {
     if (processing || timeLeft <= 0) return;
     setProcessing(true);
     setAnimationClass("orange");
@@ -111,9 +83,9 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
       setAnimationClass("");
       setProcessing(false);
     }, 500);
-  };
+  }, [loadWords, processing, timeLeft]);
 
-  const handleCorrect = () => {
+  const handleCorrect = useCallback(() => {
     if (processing || timeLeft <= 0) return;
     setProcessing(true);
     setAnimationClass("green");
@@ -125,7 +97,42 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
       setAnimationClass("");
       setProcessing(false);
     }, 500);
-  };
+  }, [loadWords, processing, timeLeft]);
+
+  useEffect(() => {
+    const handleMotion = (event) => {
+      if (
+        !event.rotationRate ||
+        motionCooldownRef.current ||
+        !gameStarted ||
+        countdown !== 0 ||
+        timeLeft <= 0
+      )
+        return;
+
+      const { beta } = event.rotationRate;
+      if (beta > 40) {
+        motionCooldownRef.current = true;
+        handleCorrect();
+        setTimeout(() => {
+          motionCooldownRef.current = false;
+        }, 1000);
+      } else if (beta < -40) {
+        motionCooldownRef.current = true;
+        handlePass();
+        setTimeout(() => {
+          motionCooldownRef.current = false;
+        }, 1000);
+      }
+    };
+
+    if (window.DeviceMotionEvent) {
+      window.addEventListener("devicemotion", handleMotion);
+    }
+    return () => {
+      window.removeEventListener("devicemotion", handleMotion);
+    };
+  }, [gameStarted, countdown, timeLeft, gameWords, handleCorrect, handlePass]);
 
   useEffect(() => {
     if (!gameStarted) return;
@@ -180,7 +187,9 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
   return (
     <div className={styles.game}>
       {showConfetti && <Confetti />}
-      <h2 className={styles.title}><FaTheaterMasks /> Jogo de Mímica <FaTheaterMasks /></h2>
+      <h2 className={styles.title}>
+        <FaTheaterMasks /> Jogo de Mímica <FaTheaterMasks />
+      </h2>
 
       {gameStarted && countdown > 0 && (
         <div className={styles.countdown}>{countdown}</div>
@@ -216,8 +225,7 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
         <div>
           <h3 className={styles.subtitle}>Desafie sua criatividade!</h3>
           <p className={styles.description}>
-            Use as setas do teclado ou os botões para passar ou acertar a
-            palavra.
+            Use as setas do teclado ou os botões para passar ou acertar a palavra.
           </p>
           <button className={styles.startButton} onClick={startMatch}>
             <FaPlay /> Iniciar
