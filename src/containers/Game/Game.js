@@ -137,21 +137,7 @@ function Game({ difficulty, categories, words }) {
 
   return (
     <div className={styles.game}>
-      {showConfetti && score > 0 && (
-        <div
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            width: "100vw",
-            height: "100vh",
-            pointerEvents: "none",
-            zIndex: 9999,
-          }}
-        >
-          <Confetti width={width} height={height} />
-        </div>
-      )}
+      {showConfetti && score > 0 && <Confetti width={width} height={height} />}
       <h2 className={styles.title}>
         {!gameStarted && timeLeft < 60 && score > 0 ? (
           <FaTrophy />
@@ -191,8 +177,8 @@ function Game({ difficulty, categories, words }) {
           <h3 className={styles.subtitle}>Desafie sua criatividade!</h3>
           <p className={styles.description}>
             Use as setas do teclado, os botões ou movimente a tela para passar
-            ou acertar a palavra. Se estiver usando um smartphone, posicione o
-            dispositivo na testa para jogar.
+            ou acertar a palavra. Se estiver usando um smartphone, posicione o dispositivo na
+            testa para jogar.
           </p>
           <button className={styles.startButton} onClick={startGame}>
             <FaPlay /> Iniciar
