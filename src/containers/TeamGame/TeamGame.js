@@ -5,6 +5,7 @@ import styles from "./TeamGame.module.css";
 import Timer from "../../components/Timer/Timer";
 import WordCard from "../../components/WordCard/WordCard";
 import GameControls from "../../components/GameControls/GameControls";
+import { useWindowSize } from "react-use";
 
 function TeamGame({ difficulty, categories, words, players, rounds }) {
   const totalMatches = rounds * players.length;
@@ -22,6 +23,7 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
   const [matchesPlayed, setMatchesPlayed] = useState(0);
   const [totalScores, setTotalScores] = useState({});
   const motionCooldownRef = useRef(false);
+  const { width, height } = useWindowSize();
 
   const currentWord = gameWords.length > 0 ? gameWords[0] : null;
 
@@ -186,7 +188,7 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
 
   return (
     <div className={styles.game}>
-      {showConfetti && <Confetti />}
+      {showConfetti && score > 0 && <Confetti width={width} height={height} />}
       <h2 className={styles.title}>
         <FaTheaterMasks /> Jogo de Mímica <FaTheaterMasks />
       </h2>

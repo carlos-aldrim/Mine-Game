@@ -6,6 +6,7 @@ import Timer from "../../components/Timer/Timer";
 import WordCard from "../../components/WordCard/WordCard";
 import GameControls from "../../components/GameControls/GameControls";
 import EndGame from "../../components/EndGame/EndGame";
+import { useWindowSize } from "react-use";
 
 function Game({ difficulty, categories, words }) {
   const [gameStarted, setGameStarted] = useState(false);
@@ -17,6 +18,7 @@ function Game({ difficulty, categories, words }) {
   const [gameWords, setGameWords] = useState([]);
   const [processing, setProcessing] = useState(false);
   const motionCooldownRef = useRef(false);
+  const { width, height } = useWindowSize();
 
   const filteredWords = words.filter(
     (word) =>
@@ -135,7 +137,7 @@ function Game({ difficulty, categories, words }) {
 
   return (
     <div className={styles.game}>
-      {showConfetti && score > 0 && <Confetti />}
+      {showConfetti && score > 0 && <Confetti width={width} height={height} />}
       <h2 className={styles.title}>
         {!gameStarted && timeLeft < 60 && score > 0 ? (
           <FaTrophy />
