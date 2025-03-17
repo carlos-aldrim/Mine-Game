@@ -23,6 +23,12 @@ function Game({ difficulty, categories, words }) {
       word.difficulty === difficulty && categories.includes(word.category)
   );
 
+  const vibrateMobileDevice = () => {
+    if (navigator.vibrate) {
+      navigator.vibrate(200);
+    }
+  };
+
   const handlePass = useCallback(() => {
     if (processing) return;
     setProcessing(true);
@@ -31,6 +37,9 @@ function Game({ difficulty, categories, words }) {
       setGameWords((prev) => prev.slice(1));
       setAnimationClass("");
       setProcessing(false);
+      if (/Mobi|Android/i.test(navigator.userAgent)) {
+        vibrateMobileDevice();
+      }
     }, 500);
   }, [processing]);
 
@@ -43,6 +52,9 @@ function Game({ difficulty, categories, words }) {
       setGameWords((prev) => prev.slice(1));
       setAnimationClass("");
       setProcessing(false);
+      if (/Mobi|Android/i.test(navigator.userAgent)) {
+        vibrateMobileDevice();
+      }
     }, 500);
   }, [processing]);
 
