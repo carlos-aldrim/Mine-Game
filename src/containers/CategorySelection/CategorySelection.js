@@ -51,7 +51,7 @@ const CategorySelection = ({ onSelect }) => {
     <div className={styles.categorySelection}>
       <div className={styles.titleContainer}>
         <FaCheckCircle className={styles.icon} />
-        <h1 className={styles.title}>Escolha suas Categorias</h1>
+        <h1 className={styles.title}>Escolha seus Temas</h1>
         <FaCheckCircle className={styles.icon} />
       </div>
       {showInstructions && (
