@@ -6,6 +6,7 @@ import Timer from "../../components/Timer/Timer";
 import WordCard from "../../components/WordCard/WordCard";
 import GameControls from "../../components/GameControls/GameControls";
 import { useWindowSize } from "react-use";
+import useSound from "use-sound";
 
 function TeamGame({ difficulty, categories, words, players, rounds }) {
   const totalMatches = rounds * players.length;
@@ -26,6 +27,15 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
   const { width, height } = useWindowSize();
 
   const currentWord = gameWords.length > 0 ? gameWords[0] : null;
+
+  const correctSoundUrl = "https://www.myinstants.com/media/sounds/correct.mp3";
+  const passSoundUrl = "https://www.myinstants.com/media/sounds/pass.mp3";
+  const winSoundUrl =
+    "https://www.myinstants.com/media/sounds/comemoracaoooo.mp3";
+
+  const [playCorrect] = useSound(correctSoundUrl, { volume: 0.5 });
+  const [playPass] = useSound(passSoundUrl, { volume: 0.5 });
+  const [playWin] = useSound(winSoundUrl, { volume: 0.5 });
 
   const filteredWords = words.filter(
     (word) =>
@@ -78,6 +88,7 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
     if (processing || timeLeft <= 0) return;
     setProcessing(true);
     setAnimationClass("orange");
+    playPass();
     setTimeout(() => {
       setGameWords((prevWords) =>
         prevWords.length <= 1 ? loadWords() : prevWords.slice(1)
@@ -91,6 +102,7 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
     if (processing || timeLeft <= 0) return;
     setProcessing(true);
     setAnimationClass("green");
+    playCorrect();
     setTimeout(() => {
       setScore((prev) => prev + 1);
       setGameWords((prevWords) =>
@@ -227,7 +239,8 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
         <div>
           <h3 className={styles.subtitle}>Desafie sua criatividade!</h3>
           <p className={styles.description}>
-            Use as setas do teclado ou os botões para passar ou acertar a palavra.
+            Use as setas do teclado ou os botões para passar ou acertar a
+            palavra.
           </p>
           <button className={styles.startButton} onClick={startMatch}>
             <FaPlay /> Iniciar

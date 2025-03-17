@@ -7,6 +7,7 @@ import WordCard from "../../components/WordCard/WordCard";
 import GameControls from "../../components/GameControls/GameControls";
 import EndGame from "../../components/EndGame/EndGame";
 import { useWindowSize } from "react-use";
+import useSound from "use-sound";
 
 function Game({ difficulty, categories, words }) {
   const [gameStarted, setGameStarted] = useState(false);
@@ -19,6 +20,17 @@ function Game({ difficulty, categories, words }) {
   const [processing, setProcessing] = useState(false);
   const motionCooldownRef = useRef(false);
   const { width, height } = useWindowSize();
+
+  const correctSoundUrl = "https://www.myinstants.com/media/sounds/correct.mp3";
+  const passSoundUrl = "https://www.myinstants.com/media/sounds/pass.mp3";
+  const winSoundUrl =
+    "https://www.myinstants.com/media/sounds/comemoracaoooo.mp3";
+  const loseSoundUrl = "https://www.myinstants.com/media/sounds/som-perdeu.mp3";
+
+  const [playCorrect] = useSound(correctSoundUrl, { volume: 0.5 });
+  const [playPass] = useSound(passSoundUrl, { volume: 0.5 });
+  const [playWin] = useSound(winSoundUrl, { volume: 0.5 });
+  const [playLose] = useSound(loseSoundUrl, { volume: 0.5 });
 
   const filteredWords = words.filter(
     (word) =>
@@ -35,6 +47,7 @@ function Game({ difficulty, categories, words }) {
     if (processing) return;
     setProcessing(true);
     setAnimationClass("orange");
+    playPass();
     setTimeout(() => {
       setGameWords((prev) => prev.slice(1));
       setAnimationClass("");
@@ -49,6 +62,7 @@ function Game({ difficulty, categories, words }) {
     if (processing) return;
     setProcessing(true);
     setAnimationClass("green");
+    playCorrect();
     setTimeout(() => {
       setScore((prev) => prev + 1);
       setGameWords((prev) => prev.slice(1));
@@ -128,10 +142,14 @@ function Game({ difficulty, categories, words }) {
       setGameStarted(false);
       if (score > 0) {
         setShowConfetti(true);
+        playWin();
         setTimeout(() => setShowConfetti(false), 5000);
+        setTimeout(() => setShowConfetti(false), 5000);
+      } else {
+        playLose();
       }
     }
-  }, [timeLeft, score]);
+  }, [timeLeft, score, playWin, playLose]);  
 
   const currentWord = gameWords.length > 0 ? gameWords[0] : null;
 
@@ -177,8 +195,8 @@ function Game({ difficulty, categories, words }) {
           <h3 className={styles.subtitle}>Desafie sua criatividade!</h3>
           <p className={styles.description}>
             Use as setas do teclado, os botões ou movimente a tela para passar
-            ou acertar a palavra. Se estiver usando um smartphone, posicione o dispositivo na
-            testa para jogar.
+            ou acertar a palavra. Se estiver usando um smartphone, posicione o
+            dispositivo na testa para jogar.
           </p>
           <button className={styles.startButton} onClick={startGame}>
             <FaPlay /> Iniciar
