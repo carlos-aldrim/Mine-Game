@@ -1,58 +1,60 @@
-body {
-  font-family: "Poppins", sans-serif;
-  background: linear-gradient(120deg, #1e3c72, #2a5298, #3f5efb);
-  color: white;
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-x: hidden;
-  position: relative;
-}
+@media (prefers-color-scheme: dark) {
+  body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(120deg, #1e3c72, #2a5298, #3f5efb);
+    color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    position: relative;
+  }
 
-.rotate-message {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(120deg, #1e3c72, #2a5298, #3f5efb);
-  color: white;
-  font-size: 1.5rem;
-  text-align: center;
-}
+  .rotate-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #1e3c72, #2a5298, #3f5efb);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+  }
 
-button {
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-  margin: 10px;
-  background-color: transparent;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  opacity: 0.8;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 1000;
-  transition: opacity 0.3s ease-in-out;
-}
+  button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 0.8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    transition: opacity 0.3s ease-in-out;
+  }
 
-button:hover {
-  opacity: 1;
-}
+  button:hover {
+    opacity: 1;
+  }
 
-button .react-icons {
-  margin-right: 8px;
-}
+  button .react-icons {
+    margin-right: 8px;
+  }
 
-button.reset-button {
-  left: 50px;
-  top: 0px;
+  button.reset-button {
+    left: 50px;
+    top: 0px;
+  }
 }
