@@ -7,9 +7,9 @@ function TeamGameStartScreen({ onStart }) {
     <div className={styles.startScreen}>
       <h3 className={styles.subtitle}>Desafie sua criatividade!</h3>
       <p className={styles.description}>
-        Use as setas do teclado, os botões ou movimente a tela para passar ou
-        acertar a palavra. Se estiver usando um smartphone, posicione o
-        dispositivo na testa para jogar.
+        Prepare-se para se mover, se divertir e liberar toda a sua criatividade!
+        O jogo está prestes a começar, então posicione seu dispositivo como
+        preferir e boa sorte!
       </p>
       <button className={styles.startButton} onClick={onStart}>
         <FaPlay /> Iniciar
