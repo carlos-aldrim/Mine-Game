@@ -1,0 +1,51 @@
+.startScreen {
+  animation: fadeIn 1s ease-in;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1rem;
+  max-width: 500px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.startButton {
+  position: relative;
+  overflow: hidden;
+  background-color: #ffd700;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.3s;
+}
+
+.startButton:hover {
+  transform: scale(1.1);
+}
+
+.startButton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: skewX(-45deg);
+  transition: all 0.5s ease;
+}
+
+.startButton:hover::after {
+  left: 200%;
+}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FiArrowLeft, FiHome } from "react-icons/fi";
+import { FiArrowLeft, FiHome, FiInfo } from "react-icons/fi";
 import GameModeSelection from "./containers/GameModeSelection/GameModeSelection";
 import TeamSetup from "./containers/TeamSetup/TeamSetup";
 import DifficultySelection from "./containers/DifficultySelection/DifficultySelection";
@@ -18,9 +18,8 @@ function App() {
   const [players, setPlayers] = useState([]);
   const [rounds, setRounds] = useState(0);
 
-  const [isPortrait, setIsPortrait] = useState(
-    window.innerWidth < window.innerHeight
-  );
+  const [isPortrait, setIsPortrait] = useState(window.innerWidth < window.innerHeight);
+  const [showInfo, setShowInfo] = useState(false);
 
   useEffect(() => {
     fetch("/words.json")
@@ -30,8 +29,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const handleResize = () =>
-      setIsPortrait(window.innerWidth < window.innerHeight);
+    const handleResize = () => setIsPortrait(window.innerWidth < window.innerHeight);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -48,6 +46,8 @@ function App() {
     setRounds(0);
   };
 
+  const toggleInfo = () => setShowInfo(!showInfo);
+
   if (isPortrait && window.innerWidth < 768) {
     return (
       <div className="rotate-message">
@@ -60,7 +60,30 @@ function App() {
 
   return (
     <div>
-      <BackgroundAnimation/>
+      <BackgroundAnimation />
+
+      <button className="info-button" onClick={toggleInfo}>
+        <FiInfo size={20} />
+      </button>
+
+      {showInfo && (
+        <div className="info-modal" onClick={toggleInfo}>
+          <div className="info-content">
+            <h2>Como Jogar Mímica</h2>
+            <p>
+              <strong>Modo Desktop (Computador/Notebook):</strong> Duas pessoas podem jogar. Uma pessoa posiciona o dispositivo de forma que a palavra não fique visível para ela – simulando o "cartão na testa". A outra pessoa faz as mímicas, representando a palavra.
+            </p>
+            <p>
+              Utilize os botões visuais na tela ou as teclas do teclado: a seta para a esquerda (<kbd>&larr;</kbd>) para <em>passar</em> e a seta para a direita (<kbd>&rarr;</kbd>) para <em>acertar</em>.
+            </p>
+            <p>
+              <strong>Modo Mobile:</strong> O funcionamento é semelhante, mas com interação por gestos. Coloque o dispositivo na testa (para não visualizar a palavra) e a outra pessoa faz a mímica. Além disso, você pode usar movimentos do aparelho: levantando o dispositivo para <em>acertar</em> e baixando-o para <em>passar</em>.
+            </p>
+            <p>Divirta-se e boa sorte!</p>
+          </div>
+        </div>
+      )}
+
       {step > 0 && (
         <button className="reset-button" onClick={resetGame}>
           <FiHome size={20} />

@@ -1,8 +1,8 @@
 import React from "react";
 import Countdown from "../Countdown/Countdown";
-import styles from "./TeamGamePlay.module.css";
+import styles from "./GamePlay.module.css";
 
-function TeamGamePlay({ countdown, timeLeft, children }) {
+function GamePlay({ countdown, timeLeft, children }) {
   return (
     <div className={styles.playContainer}>
       {countdown > 0 ? (
@@ -14,4 +14,4 @@ function TeamGamePlay({ countdown, timeLeft, children }) {
   );
 }
 
-export default TeamGamePlay;
+export default GamePlay;

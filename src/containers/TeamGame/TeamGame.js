@@ -2,7 +2,7 @@ import React from "react";
 import Confetti from "react-confetti";
 import { useWindowSize } from "react-use";
 import TeamGameStartScreen from "../../components/TeamGameStartScreen/TeamGameStartScreen";
-import TeamGamePlay from "../../components/TeamGamePlay/TeamGamePlay";
+import GamePlay from "../../components/GamePlay/GamePlay";
 import TeamGameEndScreen from "../../components/TeamGameEndScreen/TeamGameEndScreen";
 import styles from "./TeamGame.module.css";
 import { FaTheaterMasks } from "react-icons/fa";
@@ -46,7 +46,7 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
       {!gameStarted && matchesPlayed === 0 ? (
         <TeamGameStartScreen onStart={startMatch} />
       ) : gameStarted ? (
-        <TeamGamePlay countdown={countdown} timeLeft={timeLeft}>
+        <GamePlay countdown={countdown} timeLeft={timeLeft}>
           <RoundInfo
             currentRound={currentRound}
             totalRounds={rounds}
@@ -59,7 +59,7 @@ function TeamGame({ difficulty, categories, words, players, rounds }) {
             animationClass={animationClass}
           />
           <GameControls handlePass={handlePass} handleCorrect={handleCorrect} />
-        </TeamGamePlay>
+        </GamePlay>
       ) : (
         <TeamGameEndScreen
           score={score}
