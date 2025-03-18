@@ -1,0 +1,18 @@
+.countdown {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffcc00;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

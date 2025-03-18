@@ -1,15 +1,3 @@
-.wordCard {
-  border: 3px solid #fff;
-  border-radius: 10px;
-  padding: 0.75rem;
-  margin: 20px auto;
-  width: 95%;
-  max-width: 400px;
-  animation: cardEnter 0.5s ease-in;
-  transition: transform 0.3s;
-  box-sizing: border-box;
-}
-
 .wordCard h1 {
   margin: 0 auto;
   font-size: 2rem;
@@ -23,6 +11,40 @@
   font-size: 2rem;
   display: block;
   margin-top: 10px;
+}
+
+.wordCard {
+  border: 3px solid #fff;
+  border-radius: 10px;
+  padding: 0.75rem;
+  margin: 20px auto;
+  width: 95%;
+  max-width: 400px;
+  animation: cardEnter 0.5s ease-in;
+  transition: transform 0.3s;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.infoIcon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.tooltip {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  max-width: 200px;
+  z-index: 10;
+  font-size: 0.75rem;
 }
 
 @keyframes cardEnter {

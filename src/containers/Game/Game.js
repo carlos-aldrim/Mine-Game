@@ -43,11 +43,26 @@ function Game({ difficulty, categories, words }) {
     }
   };
 
+  useEffect(() => {
+    const preloadSounds = () => {
+      const audioCorrect = new Audio(correctSoundUrl);
+      const audioPass = new Audio(passSoundUrl);
+      const audioWin = new Audio(winSoundUrl);
+      const audioLose = new Audio(loseSoundUrl);
+      audioCorrect.load();
+      audioPass.load();
+      audioWin.load();
+      audioLose.load();
+    };
+  
+    preloadSounds();
+  }, []);  
+
   const handlePass = useCallback(() => {
     if (processing) return;
+    playPass();
     setProcessing(true);
     setAnimationClass("orange");
-    playPass();
     setTimeout(() => {
       setGameWords((prev) => prev.slice(1));
       setAnimationClass("");
@@ -60,9 +75,9 @@ function Game({ difficulty, categories, words }) {
 
   const handleCorrect = useCallback(() => {
     if (processing) return;
+    playCorrect();
     setProcessing(true);
     setAnimationClass("green");
-    playCorrect();
     setTimeout(() => {
       setScore((prev) => prev + 1);
       setGameWords((prev) => prev.slice(1));
