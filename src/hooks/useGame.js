@@ -53,7 +53,7 @@ const useGame = (difficulty, categories, words) => {
       setProcessing(false);
       vibrateMobileDevice();
     }, 500);
-  }, [processing]);
+  }, [playPass, processing]);
 
   const handleCorrect = useCallback(() => {
     if (processing) return;
@@ -67,7 +67,7 @@ const useGame = (difficulty, categories, words) => {
       setProcessing(false);
       vibrateMobileDevice();
     }, 500);
-  }, [processing]);
+  }, [playCorrect, processing]);
 
   useEffect(() => {
     const handleMotion = (event) => {
