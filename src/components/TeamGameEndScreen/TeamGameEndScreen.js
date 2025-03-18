@@ -1,5 +1,5 @@
 import React from "react";
-import { FaForward } from "react-icons/fa";
+import { FaForward, FaHome, FaRedo } from "react-icons/fa";
 import styles from "./TeamGameEndScreen.module.css";
 
 function TeamGameEndScreen({
@@ -27,7 +27,7 @@ function TeamGameEndScreen({
           <h3>Parabéns, jogador acertou {score} ponto(s).</h3>
           <p>Pronto para a próxima partida?</p>
           <button className={styles.nextButton} onClick={onNextMatch}>
-            <FaForward /> Próxima Partida
+            <FaForward /> Próximo
           </button>
         </div>
       ) : (
@@ -48,13 +48,13 @@ function TeamGameEndScreen({
           )}
           <div className={styles.buttons}>
             <button className={styles.restartButton} onClick={onReset}>
-              Reiniciar
+              <FaRedo size={20} /> Reiniciar
             </button>
             <button
               className={styles.homeButton}
               onClick={() => window.location.reload()}
             >
-              Voltar para Início
+              <FaHome size={20} /> Início
             </button>
           </div>
         </div>

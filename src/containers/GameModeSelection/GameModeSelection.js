@@ -2,6 +2,7 @@ import React from "react";
 import { FaGamepad, FaChevronRight } from "react-icons/fa";
 import ModeButton from "../../components/ModeButton/ModeButton";
 import styles from "./GameModeSelection.module.css";
+import { FaRegUser } from "react-icons/fa";
 
 function GameModeSelection({ onSelect }) {
   return (
@@ -24,6 +25,10 @@ function GameModeSelection({ onSelect }) {
           mode="team"
           onClick={() => onSelect("team")}
         />
+      </div>
+      <div className={styles.creator}>
+        <FaRegUser className={styles.creatorIcon} />
+        <p>Desenvolvido por Carlos Aldrim</p>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { FaRedo, FaHome } from "react-icons/fa";
 import styles from "./GameEndScreen.module.css";
 
 function GameEndScreen({ score, onRestart, onHome }) {
@@ -12,10 +13,10 @@ function GameEndScreen({ score, onRestart, onHome }) {
       </p>
       <div className={styles.endGameButtons}>
         <button className={styles.restartButton} onClick={onRestart}>
-          Reiniciar
+          <FaRedo size={20} /> Reiniciar
         </button>
         <button className={styles.homeButton} onClick={onHome}>
-          Voltar para Início
+          <FaHome size={20} /> Voltar para Início
         </button>
       </div>
     </div>

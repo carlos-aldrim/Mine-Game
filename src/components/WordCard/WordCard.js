@@ -1,11 +1,9 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { FaInfoCircle } from "react-icons/fa";
 import styles from "./WordCard.module.css";
 
 function WordCard({ currentWord, animationClass, borderColor }) {
   const [showDescription, setShowDescription] = useState(false);
-  const holdTimerRef = useRef(null);
-  const hideTimerRef = useRef(null);
 
   let animationClassName = "";
   if (animationClass === "orange") {
@@ -14,24 +12,13 @@ function WordCard({ currentWord, animationClass, borderColor }) {
     animationClassName = styles.flashGreen;
   }
 
-  const handleInfoMouseDown = () => {
-    holdTimerRef.current = setTimeout(() => {
-      setShowDescription(true);
-      hideTimerRef.current = setTimeout(() => {
-        setShowDescription(false);
-      }, 3000);
-    }, 500);
-  };
+  const toggleDescription = () => {
+    setShowDescription(true);
 
-  const handleInfoMouseUp = () => {
-    if (holdTimerRef.current) {
-      clearTimeout(holdTimerRef.current);
-      holdTimerRef.current = null;
-    }
+    setTimeout(() => {
+      setShowDescription(false);
+    }, 3000);
   };
-
-  const handleInfoTouchStart = handleInfoMouseDown;
-  const handleInfoTouchEnd = handleInfoMouseUp;
 
   return (
     <div
@@ -45,10 +32,7 @@ function WordCard({ currentWord, animationClass, borderColor }) {
 
       <FaInfoCircle
         className={styles.infoIcon}
-        onMouseDown={handleInfoMouseDown}
-        onMouseUp={handleInfoMouseUp}
-        onTouchStart={handleInfoTouchStart}
-        onTouchEnd={handleInfoTouchEnd}
+        onClick={toggleDescription}
       />
 
       {showDescription && (
