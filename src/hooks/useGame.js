@@ -105,6 +105,23 @@ const useGame = (difficulty, categories, words) => {
   }, [gameStarted, countdown, timeLeft, gameWords, handleCorrect, handlePass]);
 
   useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (!gameStarted || countdown !== 0 || timeLeft <= 0 || processing) return;
+  
+      if (event.key === "ArrowLeft") {
+        handlePass();
+      } else if (event.key === "ArrowRight") {
+        handleCorrect();
+      }
+    };
+  
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [gameStarted, countdown, timeLeft, processing, handlePass, handleCorrect]);  
+
+  useEffect(() => {
     if (!gameStarted) return;
     if (countdown > 0) {
       const timerId = setInterval(() => setCountdown((prev) => prev - 1), 1000);

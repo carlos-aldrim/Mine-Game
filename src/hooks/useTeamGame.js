@@ -163,6 +163,21 @@ const useTeamGame = ({ words, difficulty, categories, players, rounds }) => {
     };
   }, [gameStarted, countdown, timeLeft, handleCorrect, handlePass]);
 
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (!gameStarted || countdown !== 0 || timeLeft <= 0) return;
+
+      if (event.key === "ArrowLeft") {
+        handlePass();
+      } else if (event.key === "ArrowRight") {
+        handleCorrect();
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [gameStarted, countdown, timeLeft, handlePass, handleCorrect]);
+
   return {
     gameStarted,
     timeLeft,
